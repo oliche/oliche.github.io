@@ -35,15 +35,9 @@
 &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;G = U_pS_pV_p^T&lt;/script&gt;
 These are the reduced matrices sizes:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;script type=&quot;math/tex; mode=display&quot;&gt;U(l,p)&lt;/script&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;script type=&quot;math/tex; mode=display&quot;&gt;S(p,p)&lt;/script&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;script type=&quot;math/tex; mode=display&quot;&gt;V(n,n-p)&lt;/script&gt;
-  &lt;/li&gt;
+  &lt;li&gt;$U(l,p)$&lt;/li&gt;
+  &lt;li&gt;$S(p,p)$&lt;/li&gt;
+  &lt;li&gt;$V(n,n-p)$&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;pca&quot;&gt;PCA&lt;/h2&gt;
@@ -64,12 +58,12 @@ Sigma = cov(x);
   &lt;li&gt;Apply the transform to the original $x$ vector to get the new features $z$
     &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;z = x * U_;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-    &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;z = U_{red}^Tx&lt;/script&gt;
-&lt;script type=&quot;math/tex&quot;&gt;x(m,n)&lt;/script&gt;
-&lt;script type=&quot;math/tex&quot;&gt;\Sigma(n,n)&lt;/script&gt;
-&lt;script type=&quot;math/tex&quot;&gt;U(n,n)&lt;/script&gt;
-&lt;script type=&quot;math/tex&quot;&gt;U_{red}(n,k)&lt;/script&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;z = U_{red}^Tx&lt;/script&gt;&lt;/p&gt;
   &lt;/li&gt;
+  &lt;li&gt;$x(m,n)$&lt;/li&gt;
+  &lt;li&gt;$\Sigma(n,n)$&lt;/li&gt;
+  &lt;li&gt;$U(n,n)$&lt;/li&gt;
+  &lt;li&gt;$U_{red}(n,k)$&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;references-and-further-reading&quot;&gt;References and Further Reading&lt;/h3&gt;
@@ -91,11 +85,15 @@ Sigma = cov(x);
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;bayes-theorem&quot;&gt;Bayes Theorem&lt;/h2&gt;
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;P(A|B) = \frac{P(B|A)P(A)}{P(B)}&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;Short version:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(A|B) = \frac{P(B|A)P(A)}{P(B)}&lt;/script&gt;
+
+&lt;p&gt;Full version:&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;P(A|B) = \frac{P(B|A)P(A)}{P(A)P(B|A)+P(B|\neg A)(1-P(A))}&lt;/script&gt;
 
-&lt;h3 id=&quot;example-breast-cancer-from-nsilver&quot;&gt;Example: breast cancer (from N.Silver)&lt;/h3&gt;
+&lt;h3 id=&quot;example-breast-cancer-from-nsilver&quot;&gt;Example: breast cancer from N.Silver&lt;/h3&gt;
 &lt;p&gt;A woman has roughly 1.4% Chance of devlopping breast cancer in her forties, this is the prior &lt;script type=&quot;math/tex&quot;&gt;P(A)&lt;/script&gt;.
 If she does a mammogramm, there is a 10% rate of false positives &lt;script type=&quot;math/tex&quot;&gt;(P(B|\neg A)&lt;/script&gt;, and 75% percent of true positives &lt;script type=&quot;math/tex&quot;&gt;P(B|A)&lt;/script&gt;.&lt;/p&gt;
 
@@ -105,7 +103,7 @@ If she does a mammogramm, there is a 10% rate of false positives &lt;script type
 
 &lt;p&gt;The chance of that a woman in her forties has breast cancer given she’s had a positive mammogram is still low, around 10%.&lt;/p&gt;
 
-&lt;h2 id=&quot;independence-example-from-n-silver&quot;&gt;Independence example (from N. Silver)&lt;/h2&gt;
+&lt;h2 id=&quot;independence-example-from-n-silver&quot;&gt;Independence example from N. Silver&lt;/h2&gt;
 
 &lt;p&gt;Each pool contains 5 securities that each have a 5% chance of default. The probability of loosing the bet depends drastically on the assumption of correlation between the securities.&lt;/p&gt;
 
@@ -158,7 +156,7 @@ If she does a mammogramm, there is a 10% rate of false positives &lt;script type
 	&lt;span class=&quot;nb&quot;&gt;sprintf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'%10f'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;simpsons-paradox-from-jpearl&quot;&gt;Simpson’s Paradox (from J.Pearl)&lt;/h2&gt;
+&lt;h2 id=&quot;simpsons-paradox-from-jpearl&quot;&gt;Simpson’s Paradox from J.Pearl&lt;/h2&gt;
 &lt;p&gt;When an event &lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt; increases the probability of &lt;script type=&quot;math/tex&quot;&gt;E&lt;/script&gt; in a given population &lt;script type=&quot;math/tex&quot;&gt;p&lt;/script&gt; and, at the same time, decreases the probability of &lt;script type=&quot;math/tex&quot;&gt;E&lt;/script&gt; in every subpopulation of &lt;script type=&quot;math/tex&quot;&gt;p&lt;/script&gt;. For complementary properties  &lt;script type=&quot;math/tex&quot;&gt;F&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\neg F&lt;/script&gt; of two subpopulations, we may encounter the inequalities:&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
@@ -278,8 +276,10 @@ P(E|C, \neg F) &lt; P(E | \neg C, \neg F)\\\\
 &lt;p&gt;In this case the main factor of recovery is the gender, so a disproportion of males in the combined sample leaves the impression that the drug is benefecial while it is really harmful.&lt;/p&gt;
 
 &lt;h3 id=&quot;references-and-further-reading&quot;&gt;References and Further Reading&lt;/h3&gt;
-&lt;p&gt;J. Pearl. Causality: Models, Reasoning and Inference. Second Edition.
-N. Silver. The Signal and the Noise: Why So Many Predictions Fail but Some Don’t.&lt;/p&gt;
+
+&lt;p&gt;J. Pearl. Causality: Models, Reasoning and Inference. Second Edition.&lt;/p&gt;
+
+&lt;p&gt;N. Silver. The Signal and the Noise: Why So Many Predictions Fail but Some Don’t.&lt;/p&gt;
 </description>
 				<guid isPermaLink="true">https://oliche.github.io/seismic_maths/Math_StatisticsSurvivalSkills/</guid>
 			</item>

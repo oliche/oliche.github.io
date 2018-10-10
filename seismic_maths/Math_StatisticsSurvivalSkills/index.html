@@ -340,11 +340,15 @@
 </ul>
 
 <h2 id="bayes-theorem">Bayes Theorem</h2>
-<p><script type="math/tex">P(A|B) = \frac{P(B|A)P(A)}{P(B)}</script></p>
+<p>Short version:</p>
+
+<script type="math/tex; mode=display">P(A|B) = \frac{P(B|A)P(A)}{P(B)}</script>
+
+<p>Full version:</p>
 
 <script type="math/tex; mode=display">P(A|B) = \frac{P(B|A)P(A)}{P(A)P(B|A)+P(B|\neg A)(1-P(A))}</script>
 
-<h3 id="example-breast-cancer-from-nsilver">Example: breast cancer (from N.Silver)</h3>
+<h3 id="example-breast-cancer-from-nsilver">Example: breast cancer from N.Silver</h3>
 <p>A woman has roughly 1.4% Chance of devlopping breast cancer in her forties, this is the prior <script type="math/tex">P(A)</script>.
 If she does a mammogramm, there is a 10% rate of false positives <script type="math/tex">(P(B|\neg A)</script>, and 75% percent of true positives <script type="math/tex">P(B|A)</script>.</p>
 
@@ -354,7 +358,7 @@ If she does a mammogramm, there is a 10% rate of false positives <script type="m
 
 <p>The chance of that a woman in her forties has breast cancer given she’s had a positive mammogram is still low, around 10%.</p>
 
-<h2 id="independence-example-from-n-silver">Independence example (from N. Silver)</h2>
+<h2 id="independence-example-from-n-silver">Independence example from N. Silver</h2>
 
 <p>Each pool contains 5 securities that each have a 5% chance of default. The probability of loosing the bet depends drastically on the assumption of correlation between the securities.</p>
 
@@ -407,7 +411,7 @@ If she does a mammogramm, there is a 10% rate of false positives <script type="m
 	<span class="nb">sprintf</span><span class="p">(</span><span class="s1">'%10f'</span><span class="p">,</span><span class="n">res</span><span class="o">*</span><span class="mi">100</span><span class="p">)</span>
 </code></pre></div></div>
 
-<h2 id="simpsons-paradox-from-jpearl">Simpson’s Paradox (from J.Pearl)</h2>
+<h2 id="simpsons-paradox-from-jpearl">Simpson’s Paradox from J.Pearl</h2>
 <p>When an event <script type="math/tex">C</script> increases the probability of <script type="math/tex">E</script> in a given population <script type="math/tex">p</script> and, at the same time, decreases the probability of <script type="math/tex">E</script> in every subpopulation of <script type="math/tex">p</script>. For complementary properties  <script type="math/tex">F</script> and <script type="math/tex">\neg F</script> of two subpopulations, we may encounter the inequalities:</p>
 
 <script type="math/tex; mode=display">% <![CDATA[
@@ -527,8 +531,10 @@ P(E|C, \neg F) < P(E | \neg C, \neg F)\\\\
 <p>In this case the main factor of recovery is the gender, so a disproportion of males in the combined sample leaves the impression that the drug is benefecial while it is really harmful.</p>
 
 <h3 id="references-and-further-reading">References and Further Reading</h3>
-<p>J. Pearl. Causality: Models, Reasoning and Inference. Second Edition.
-N. Silver. The Signal and the Noise: Why So Many Predictions Fail but Some Don’t.</p>
+
+<p>J. Pearl. Causality: Models, Reasoning and Inference. Second Edition.</p>
+
+<p>N. Silver. The Signal and the Noise: Why So Many Predictions Fail but Some Don’t.</p>
 
 			</div>
 

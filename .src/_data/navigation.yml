@@ -1,0 +1,36 @@
+- title: Home
+  url: "/"
+  side: left
+
+- title: "Seismic"
+  url: "/seismic/"
+  side: left
+  dropdown:
+  - title: "Acquisition"
+    url: "/seismic_acquisition/"
+  - title: "Survey Design"
+    url: "/seismic_design/"
+  - title: "Mathematical Tools"
+    url: "/seismic_maths/"
+  - title: "Seismic Processing"
+    url: "/seismic_processing/"
+  - title: "Reservoir"
+    url: "/seismic_reservoir/"        
+
+- title: Codes
+  url: "/code_libraries/"
+  side: left
+  dropdown:
+#  - title: "Python"
+#    url: "/python_seismic/"
+  - title: "Matlab"
+    url: "/code_libraries/"
+
+
+- title: Archive
+  url: "/blog/archive/"
+  side: right
+
+- title: "About"
+  url: "/info/"
+  side: right

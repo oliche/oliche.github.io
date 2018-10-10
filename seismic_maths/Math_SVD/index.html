@@ -354,15 +354,9 @@
 <p><script type="math/tex">G = U_pS_pV_p^T</script>
 These are the reduced matrices sizes:</p>
 <ul>
-  <li>
-    <script type="math/tex; mode=display">U(l,p)</script>
-  </li>
-  <li>
-    <script type="math/tex; mode=display">S(p,p)</script>
-  </li>
-  <li>
-    <script type="math/tex; mode=display">V(n,n-p)</script>
-  </li>
+  <li>$U(l,p)$</li>
+  <li>$S(p,p)$</li>
+  <li>$V(n,n-p)$</li>
 </ul>
 
 <h2 id="pca">PCA</h2>
@@ -383,12 +377,12 @@ Sigma = cov(x);
   <li>Apply the transform to the original $x$ vector to get the new features $z$
     <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>z = x * U_;
 </code></pre></div>    </div>
-    <p><script type="math/tex">z = U_{red}^Tx</script>
-<script type="math/tex">x(m,n)</script>
-<script type="math/tex">\Sigma(n,n)</script>
-<script type="math/tex">U(n,n)</script>
-<script type="math/tex">U_{red}(n,k)</script></p>
+    <p><script type="math/tex">z = U_{red}^Tx</script></p>
   </li>
+  <li>$x(m,n)$</li>
+  <li>$\Sigma(n,n)$</li>
+  <li>$U(n,n)$</li>
+  <li>$U_{red}(n,k)$</li>
 </ul>
 
 <h3 id="references-and-further-reading">References and Further Reading</h3>
