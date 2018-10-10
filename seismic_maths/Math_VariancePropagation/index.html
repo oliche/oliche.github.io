@@ -1,0 +1,486 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Stacking : The Square-Root Law</title>
+
+    <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles_feeling_responsive.css">
+
+  
+
+	<script src="http://localhost:4000/assets/js/modernizr.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+	<script>
+		WebFont.load({
+			google: {
+				families: [ 'Lato:400,700,400italic:latin', 'Volkhov::latin' ]
+			}
+		});
+	</script>
+
+	<noscript>
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic%7CVolkhov' rel='stylesheet' type='text/css'>
+	</noscript>
+
+
+	<!-- Search Engine Optimization -->
+	<meta name="description" content="An intuitive demonstration of why random noise stacks out proportionally to the square-root of the stacking fold.">
+	
+	
+	
+	
+	
+	
+	<link rel="canonical" href="http://localhost:4000/seismic_maths/Math_VariancePropagation/">
+
+
+	<!-- Facebook Open Graph -->
+	<meta property="og:title" content="Stacking : The Square-Root Law">
+	<meta property="og:description" content="An intuitive demonstration of why random noise stacks out proportionally to the square-root of the stacking fold.">
+	<meta property="og:url" content="http://localhost:4000/seismic_maths/Math_VariancePropagation/">
+	<meta property="og:locale" content="en_EN">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="Seismic Crumbs">
+	
+	
+
+
+	
+
+	<link type="text/plain" rel="author" href="http://localhost:4000/humans.txt">
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+	
+
+</head>
+<body id="top-of-page" class="post">
+	
+	<div id="navigation" class="sticky">
+  <nav class="top-bar" role="navigation" data-topbar>
+    <ul class="title-area">
+      <li class="name">
+      <h1 class="show-for-small-only"><a href="http://localhost:4000" class="icon-tree"> Seismic Crumbs</a></h1>
+    </li>
+       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Nav</span></a></li>
+    </ul>
+    <section class="top-bar-section">
+
+      <ul class="right">
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a  href="http://localhost:4000/blog/archive/">Archive</a></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a  href="http://localhost:4000/info/">About</a></li>
+
+            
+            
+          
+        
+        
+      </ul>
+
+      <ul class="left">
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a  href="http://localhost:4000/">Home</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000/seismic/">Seismic</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/seismic_acquisition/">Acquisition</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/seismic_design/">Survey Design</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/seismic_maths/">Mathematical Tools</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/seismic_processing/">Seismic Processing</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/seismic_reservoir/">Reservoir</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000/code_libraries/">Codes</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/code_libraries/">Matlab</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
+        
+        
+      </ul>
+    </section>
+  </nav>
+</div><!-- /#navigation -->
+
+	
+
+	
+
+<div id="masthead">
+	<div class="row">
+		<div class="small-12 columns">
+			<a id="logo" href="http://localhost:4000/" title="Seismic Crumbs – Bits and Pieces of Seismic">
+				<img src="http://localhost:4000/assets/img/logo.png" alt="Seismic Crumbs – Bits and Pieces of Seismic">
+			</a>
+		</div><!-- /.small-12.columns -->
+	</div><!-- /.row -->
+</div><!-- /#masthead -->
+
+
+
+
+<nav class="breadcrumbs" role="menubar" aria-label="breadcrumbs">
+ <a href="http://localhost:4000">Start</a>
+ 
+   
+    
+        <a href="http://localhost:4000/seismic_maths/">seismic_maths</a>
+    
+  
+    
+        <a class="current">Stacking : The Square-Root Law</a>
+    
+  
+</nav>
+
+
+
+
+
+
+
+
+
+
+	<div class="row t30">
+	<div class="medium-8 columns medium-offset-2 end">
+		<article itemscope itemtype="http://schema.org/Article">
+			<header>
+				
+
+				<div itemprop="name">
+					<p class="subheadline">Maths</p>
+					<h1>Stacking : The Square-Root Law</h1>
+				</div>
+			</header>
+
+
+			
+			<p class="teaser" itemprop="description">
+				An intuitive demonstration of why random noise stacks out proportionally to the square-root of the stacking fold.
+			</p>
+			
+
+			<div itemprop="articleSection">
+			<p>If <script type="math/tex">f</script> is a function of two Gaussian variables,</p>
+
+<script type="math/tex; mode=display">y = f(x_1,x_2)</script>
+
+<p>the variance propagates according to the norm of partial derivatives weighted with covariances <a href="http://www.itl.nist.gov/div898/handbook/">(NIST engineering statistics handbook)</a>:</p>
+
+<script type="math/tex; mode=display">\sigma_y = \sqrt{\bigg(\frac{\partial{y}}{\partial{x_1}}\bigg)^2\sigma^2_{x_1} + \bigg(\frac{\partial{y}}{\partial{x_2}}\bigg)^2\sigma^2_{x_2} + ... + \bigg(\frac{\partial{y}}{\partial{x_1}}\bigg).\bigg(\frac{\partial{y}}{\partial{x_2}}\bigg)\sigma_{x_1x_2}^2}</script>
+
+<p>For a <script type="math/tex">n</script> repeated experiments with noise of constant variance throughout, the equation simplifies to</p>
+
+<script type="math/tex; mode=display">y = \sum_n{x_n};</script>
+
+<script type="math/tex; mode=display">\sigma_y^2 = \sum_n{\sigma_n} = n\sigma^2;</script>
+
+<p>The variance of the noise is reduced by a <script type="math/tex">\sqrt{n}</script> factor, the square-root of the stack-order :</p>
+
+<script type="math/tex; mode=display">\sigma_y = \sqrt{n}.\sigma;</script>
+
+
+			</div>
+
+			
+						<div id="page-meta" class="t30">
+				<p>
+					<!-- Look the author details up from the site config. -->
+					
+					<!-- Output author details if some exist. -->
+					
+					<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="pr20 icon-edit"><a href="" target="_blank"> Olivier</a></span>
+				</span>
+				
+
+				
+				<time class="icon-calendar pr20" datetime="2016-12-15" itemprop="datePublished"> 2016-12-15</time>
+				
+
+				<span class="icon-archive pr20"> SEISMIC_MATHS</span>
+				<br />
+				<span class="pr20"><span class="icon-price-tag pr10"> noise</span> </span>
+			</p>
+
+			<div id="post-nav" class="row">
+				
+				<div class="small-5 columns"><a class="button small radius prev" href="http://localhost:4000/seismic_maths/Math_ParabolaInterpolation/">&laquo; Parabola Interpolation</a></div><!-- /.small-4.columns -->
+				
+				<div class="small-2 columns text-center"><a class="radius button small" href="http://localhost:4000/blog/archive/" title="Blog Archive">Archive</a></div><!-- /.small-4.columns -->
+				
+				<div class="small-5 columns text-right"><a class="button small radius next" href="http://localhost:4000/seismic_maths/Math_VectorCalculus/">Vector Calculus &raquo;</a></div><!-- /.small-4.columns -->
+				
+			</div>
+			</div><!--  /.page-meta -->
+			
+
+			
+		</article>
+	</div><!-- /.medium-8.columns -->
+
+
+	
+
+
+	
+</div><!-- /.row -->
+
+
+	
+	    <div id="up-to-top" class="row">
+      <div class="small-12 columns" style="text-align: right;">
+        <a class="iconfont" href="#top-of-page">&#xf108;</a>
+      </div><!-- /.small-12.columns -->
+    </div><!-- /.row -->
+
+
+    <footer id="footer-content" class="bg-grau">
+      <div id="footer">
+        <div class="row">
+          <div class="medium-6 large-5 columns">
+            <h5 class="shadow-black">About This Site</h5>
+
+            <p class="shadow-black">
+              Bits and Pieces of Seismic
+              <a href="http://localhost:4000/info/">More ›</a>
+            </p>
+          </div><!-- /.large-6.columns -->
+
+
+          <div class="small-6 medium-3 large-3 large-offset-1 columns">
+            
+
+              <ul class="no-bullet shadow-black">
+              
+              </ul>
+          </div><!-- /.large-4.columns -->
+
+
+          <div class="small-6 medium-3 large-3 columns">
+            
+              
+                <h5 class="shadow-black">Merci Beaucoup</h5>
+              
+            
+              
+            
+
+            <ul class="no-bullet shadow-black">
+            
+              
+                <li >
+                  <a href="http://localhost:4000"  title=""></a>
+                </li>
+            
+              
+                <li class="services-newsletter" >
+                  <a href="http://foundation.zurb.com/" target="_blank"  title="Built on Foundation">Built on Foundation</a>
+                </li>
+            
+            </ul>
+          </div><!-- /.large-3.columns -->
+        </div><!-- /.row -->
+
+      </div><!-- /#footer -->
+
+
+      <div id="subfooter">
+        <nav class="row">
+          <section id="subfooter-left" class="small-12 medium-6 columns credits">
+            <p>Created  with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>
+          </section>
+
+          <section id="subfooter-right" class="small-12 medium-6 columns">
+            <ul class="inline-list social-icons">
+            
+              <li><a href="https://www.linkedin.com/in/olivier-winter-57681087" target="_blank" class="icon-linkedin" title="LinkedIn Profile"></a></li>
+            
+              <li><a href="https://bitbucket.org/oliche/" target="_blank" class="icon-github" title="BitBucket Repo"></a></li>
+            
+            </ul>
+          </section>
+        </nav>
+      </div><!-- /#subfooter -->
+    </footer>
+
+	
+
+	
+
+
+<script src="http://localhost:4000/assets/js/javascript.min.js"></script>
+
+
+
+<script>
+    $("#masthead").backstretch("http://localhost:4000/images/banner_seismic_processing.jpg", {fade: 700});
+    $("#masthead-with-text").backstretch("http://localhost:4000/images/banner_seismic_processing.jpg", {fade: 700});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>

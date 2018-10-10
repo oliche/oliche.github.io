@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/assets/xslt/atom.xslt" ?>
+<?xml-stylesheet type="text/css" href="/assets/css/atom.css" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<id>http://localhost:4000/</id>
+	<title>Seismic Crumbs</title>
+	<updated>2017-12-13T21:45:24-06:00</updated>
+
+	<subtitle>Bits and Pieces of Seismic</subtitle>
+
+	
+		
+		<author>
+			
+				<name>Olivier</name>
+			
+			
+			
+		</author>
+	
+
+	<link href="http://localhost:4000/atom.xml" rel="self" type="application/rss+xml" />
+	<link href="http://localhost:4000/" rel="alternate" type="text/html" />
+
+	<generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator>
+
+	
+		<entry>
+			<id>http://localhost:4000/seismic_maths/Math_StatisticsSurvivalSkills/</id>
+			<title>Statistics</title>
+			<link href="http://localhost:4000/seismic_maths/Math_StatisticsSurvivalSkills/" rel="alternate" type="text/html" title="Statistics" />
+			<updated>2017-12-13T00:00:00-06:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Olivier</name>
+					
+					
+					
+				</author>
+			
+			<summary>A hodgepodge of basic survival skills in statistics</summary>
+			<content type="html" xml:base="http://localhost:4000/seismic_maths/Math_StatisticsSurvivalSkills/">&lt;h2 id=&quot;simpsons-paradox-from-jpearl&quot;&gt;Simpson’s Paradox (from J.Pearl)&lt;/h2&gt;
+&lt;p&gt;When an event &lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt; increases the probability of &lt;script type=&quot;math/tex&quot;&gt;E&lt;/script&gt; in a given population &lt;script type=&quot;math/tex&quot;&gt;p&lt;/script&gt; and, at the same time, decreases the probability of &lt;script type=&quot;math/tex&quot;&gt;E&lt;/script&gt; in every subpopulation of &lt;script type=&quot;math/tex&quot;&gt;p&lt;/script&gt;. For complementary properties  &lt;script type=&quot;math/tex&quot;&gt;F&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\neg F&lt;/script&gt; of two subpopulations, we may encounter the inequalities:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align}
+P(E|C) &gt; P(E | \neg C) \\\\
+P(E|C,F) &lt; P(E | \neg C, F) \\\\
+P(E|C, \neg F) &lt; P(E | \neg C, \neg F)\\\\
+\end{align} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;Here is an example where &lt;script type=&quot;math/tex&quot;&gt;F&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\neg F&lt;/script&gt; are the gender of individuals, &lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\neg C&lt;/script&gt; the test and control groups and &lt;script type=&quot;math/tex&quot;&gt;E&lt;/script&gt; the recovery.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;strong&gt;Combined&lt;/strong&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;script type=&quot;math/tex&quot;&gt;E&lt;/script&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;script type=&quot;math/tex&quot;&gt;\neg E&lt;/script&gt;&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;Recovery Rate&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Drug (&lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt;)&lt;/td&gt;
+      &lt;td&gt;20&lt;/td&gt;
+      &lt;td&gt;20&lt;/td&gt;
+      &lt;td&gt;40&lt;/td&gt;
+      &lt;td&gt;50%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;No drug (&lt;script type=&quot;math/tex&quot;&gt;\neg C&lt;/script&gt;)&lt;/td&gt;
+      &lt;td&gt;16&lt;/td&gt;
+      &lt;td&gt;24&lt;/td&gt;
+      &lt;td&gt;40&lt;/td&gt;
+      &lt;td&gt;40%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;36&lt;/td&gt;
+      &lt;td&gt;44&lt;/td&gt;
+      &lt;td&gt;80&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;strong&gt;Males&lt;/strong&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;script type=&quot;math/tex&quot;&gt;E&lt;/script&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;script type=&quot;math/tex&quot;&gt;\neg E&lt;/script&gt;&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;Recovery Rate&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Drug (&lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt;)&lt;/td&gt;
+      &lt;td&gt;18&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;30&lt;/td&gt;
+      &lt;td&gt;60%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;No drug (&lt;script type=&quot;math/tex&quot;&gt;\neg C&lt;/script&gt;)&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;70%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;25&lt;/td&gt;
+      &lt;td&gt;15&lt;/td&gt;
+      &lt;td&gt;40&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;strong&gt;Females&lt;/strong&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;script type=&quot;math/tex&quot;&gt;E&lt;/script&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;script type=&quot;math/tex&quot;&gt;\neg E&lt;/script&gt;&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;Recovery Rate&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Drug (&lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt;)&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;20%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;No drug (&lt;script type=&quot;math/tex&quot;&gt;\neg C&lt;/script&gt;)&lt;/td&gt;
+      &lt;td&gt;9&lt;/td&gt;
+      &lt;td&gt;21&lt;/td&gt;
+      &lt;td&gt;30&lt;/td&gt;
+      &lt;td&gt;30%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;11&lt;/td&gt;
+      &lt;td&gt;29&lt;/td&gt;
+      &lt;td&gt;40&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;In this case the main factor of recovery is the gender, so a disproportion of males in the combined sample leaves the impression that the drug is benefecial while it is really harmful.&lt;/p&gt;
+
+&lt;h2 id=&quot;bayes-theorem&quot;&gt;Bayes Theorem&lt;/h2&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(A|B) = \frac{P(B|A)P(A)}{P(A)P(B|A)+P(B|\neg A)(1-P(A))}&lt;/script&gt;
+
+&lt;h3 id=&quot;example-breast-cancer-from-nsilver&quot;&gt;Example: breast cancer (from N.Silver)&lt;/h3&gt;
+&lt;p&gt;A woman has roughly 1.4% Chance of devlopping breast cancer in her forties, this is the prior &lt;script type=&quot;math/tex&quot;&gt;P(A)&lt;/script&gt;.
+If she does a mammogramm, there is a 10% rate of false positives &lt;script type=&quot;math/tex&quot;&gt;(P(B|\neg A)&lt;/script&gt;, and 75% percent of true positives &lt;script type=&quot;math/tex&quot;&gt;P(B|A)&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;Applying Bayes Theorem,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(A|B) = \frac{P(B|A)P(A)}{P(A)P(B|A)+P(B|\neg A)(1-P(A))}= \frac{0.75 \times 0.014}{0.014 \times 0.75 + 0.1 \times (1-0.014)} = 9.62\%&lt;/script&gt;
+
+&lt;p&gt;The chance of that a woman in her forties has breast cancer given she’s had a positive mammogram is still low, around 10%.&lt;/p&gt;
+
+&lt;h2 id=&quot;independence-example-from-n-silver&quot;&gt;Independence example (from N. Silver)&lt;/h2&gt;
+
+&lt;p&gt;Each pool contains 5 securities that each have a 5% chance of default. The probability of loosing the bet depends drastically on the assumption of correlation between the securities.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Bet&lt;/th&gt;
+      &lt;th&gt;Rules&lt;/th&gt;
+      &lt;th&gt;No Correlation&lt;/th&gt;
+      &lt;th&gt;Perfect Correlation&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Alpha Pool&lt;/td&gt;
+      &lt;td&gt;Bet lost if 5 on 5 defaults&lt;/td&gt;
+      &lt;td&gt;0.00003%&lt;/td&gt;
+      &lt;td&gt;5%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Beta Pool&lt;/td&gt;
+      &lt;td&gt;Bet lost if 4+ on 5 defaults&lt;/td&gt;
+      &lt;td&gt;0.003%&lt;/td&gt;
+      &lt;td&gt;5%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Gamma Pool&lt;/td&gt;
+      &lt;td&gt;Bet lost if 3+ on 5 defaults&lt;/td&gt;
+      &lt;td&gt;0.1%&lt;/td&gt;
+      &lt;td&gt;5%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Delta Pool&lt;/td&gt;
+      &lt;td&gt;Bet lost if 2+ on 5 defaults&lt;/td&gt;
+      &lt;td&gt;2.1%&lt;/td&gt;
+      &lt;td&gt;5%&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Epsilon Pool&lt;/td&gt;
+      &lt;td&gt;Bet lost if 1+ on 5 defaults&lt;/td&gt;
+      &lt;td&gt;20.4%&lt;/td&gt;
+      &lt;td&gt;5%&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div class=&quot;language-matlab highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.05&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;res&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.^&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.*&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.*&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;factorial&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;factorial&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+	&lt;span class=&quot;nb&quot;&gt;sprintf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'%10f'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;references-and-further-reading&quot;&gt;References and Further Reading&lt;/h3&gt;
+&lt;p&gt;J. Pearl. Causality: Models, Reasoning and Inference. Second Edition.
+N. Silver. The Signal and the Noise: Why So Many Predictions Fail but Some Don’t.&lt;/p&gt;
+</content>
+
+			
+				<category term="seismic_maths" />
+			
+			
+
+			<published>2017-12-13T00:00:00-06:00</published>
+		</entry>
+	
+		<entry>
+			<id>http://localhost:4000/seismic_processing/SigProc_PowerSpectralDensity/</id>
+			<title>PSD </title>
+			<link href="http://localhost:4000/seismic_processing/SigProc_PowerSpectralDensity/" rel="alternate" type="text/html" title="PSD " />
+			<updated>2016-12-15T00:00:00-06:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Olivier</name>
+					
+					
+					
+				</author>
+			
+			<summary>Spectral Density, Parseval theorem and Root Mean Square,... in Proper Units...</summary>
+			<content type="html" xml:base="http://localhost:4000/seismic_processing/SigProc_PowerSpectralDensity/">&lt;p&gt;For an input in millivolts (&lt;script type=&quot;math/tex&quot;&gt;mV&lt;/script&gt;) &lt;strong&gt;Power Spectral Density&lt;/strong&gt; (PSD) is expressed in (&lt;script type=&quot;math/tex&quot;&gt;\frac{mV^2}{Hz}&lt;/script&gt;). The &lt;strong&gt;Spectral density&lt;/strong&gt; is in (&lt;script type=&quot;math/tex&quot;&gt;\frac{mV}{\sqrt{Hz}}&lt;/script&gt;).
+The PSD is defined as follows for a finite time serie &lt;script type=&quot;math/tex&quot;&gt;x_n&lt;/script&gt; of length &lt;script type=&quot;math/tex&quot;&gt;T&lt;/script&gt; secs sampled at &lt;script type=&quot;math/tex&quot;&gt;\Delta t&lt;/script&gt; secs :&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;PSD(f) = \frac{(\Delta t)^2}{T} \left|{\sum_{n=1}^{N}{x_ne^{-2i\pi n}}}\right|^2&lt;/script&gt;
+
+&lt;p&gt;When dealing with PSD it is always helpful to keep in mind Parseval theorem :&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\int_{-\infty}^{\infty} \left| x(t) \right| ^2 dt =  \int_{-\infty}^{\infty} \left| X(f) \right| ^2 df&lt;/script&gt;
+
+&lt;p&gt;It means that the sum of square of a signal is the same in time domain than in frequency domain.&lt;/p&gt;
+
+&lt;p&gt;The Parseval theorem serves to prove that the RMS equals the square root of the PSD integration over the bandwidth (and is a good way to write a unit test…).&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;RMS=\sqrt{\frac{1}{N}\sum_1^N{x_n^2}}=\sqrt{\int_{f_1}^{f_2} PSD(f)  df}&lt;/script&gt;
+
+&lt;h2 id=&quot;matlab-example-&quot;&gt;Matlab example :&lt;/h2&gt;
+
+&lt;div class=&quot;language-matlab highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;c1&quot;&gt;%% PSD&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;Nech&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2501&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Si&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.001&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;% 2501 samples at 1ms&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;W&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;rand&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Nech&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;W&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;W&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;mean&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;W&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Si&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Nech&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;% Spectral density&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;SD&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;decons&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;abs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;fft&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;W&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.*&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Si&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Nech&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;% Parseval verified&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SD&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.^&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Si&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;W&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.^&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;% Rms is the root of integration of the PSD&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SD&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.^&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rms&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;W&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+</content>
+
+			
+				<category term="seismic_processing" />
+			
+			
+				<category term="phase" />
+			
+				<category term="signal processing" />
+			
+
+			<published>2016-12-15T00:00:00-06:00</published>
+		</entry>
+	
+		<entry>
+			<id>http://localhost:4000/seismic_processing/SigProc_MinimumPhase/</id>
+			<title>Minimum Phase </title>
+			<link href="http://localhost:4000/seismic_processing/SigProc_MinimumPhase/" rel="alternate" type="text/html" title="Minimum Phase " />
+			<updated>2016-12-15T00:00:00-06:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Olivier</name>
+					
+					
+					
+				</author>
+			
+			<summary></summary>
+			<content type="html" xml:base="http://localhost:4000/seismic_processing/SigProc_MinimumPhase/">&lt;p&gt;A system is minimum phase when it is &lt;strong&gt;causal and stable&lt;/strong&gt;, and if its inverse is also &lt;strong&gt;causal and stable&lt;/strong&gt;.
+A filter is minimum phase when all of its poles and zeroes are inside the unit circle.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The inverse of a minimum phase system is minimum phase.&lt;/li&gt;
+  &lt;li&gt;For a given amplitude spectrum, there is one and only one minimum phase spectrum.&lt;/li&gt;
+  &lt;li&gt;The convolution of 2 minimum phase systems is minimum phase.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-matlab highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	&lt;span class=&quot;c1&quot;&gt;% This computes the minimum phase of the wavelet W&lt;/span&gt;
+	&lt;span class=&quot;c1&quot;&gt;% Needs the signal processing toolbox&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;W&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;flipud&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;real&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ifft&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;exp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hilbert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;real&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;fft&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;W&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))))))));&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</content>
+
+			
+				<category term="seismic_processing" />
+			
+			
+				<category term="phase" />
+			
+				<category term="signal processing" />
+			
+
+			<published>2016-12-15T00:00:00-06:00</published>
+		</entry>
+	
+		<entry>
+			<id>http://localhost:4000/seismic_processing/SigProc_InstantaneousPhase/</id>
+			<title>Instantaneous Phase and Frequency </title>
+			<link href="http://localhost:4000/seismic_processing/SigProc_InstantaneousPhase/" rel="alternate" type="text/html" title="Instantaneous Phase and Frequency " />
+			<updated>2016-12-15T00:00:00-06:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Olivier</name>
+					
+					
+					
+				</author>
+			
+			<summary></summary>
+			<content type="html" xml:base="http://localhost:4000/seismic_processing/SigProc_InstantaneousPhase/">&lt;p&gt;The analytic signal &lt;script type=&quot;math/tex&quot;&gt;S_a(t)&lt;/script&gt; is a complex representation of a real time serie &lt;script type=&quot;math/tex&quot;&gt;S(t)&lt;/script&gt;. Its real part is the signal &lt;script type=&quot;math/tex&quot;&gt;S(t)&lt;/script&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\Re{ \{S_a(t)\} } = S(t)&lt;/script&gt;
+
+&lt;p&gt;while its imaginary part is the Hilbert transform of &lt;script type=&quot;math/tex&quot;&gt;S(t)&lt;/script&gt;.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\Im{\{S_a(t)\}} = Hilbert(S(t))&lt;/script&gt;
+
+&lt;p&gt;The Euler decomposition (argument and magnitude) of the analytic signal have  useful applications.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;S_a(t) = \|{S_a(t)}\| . e^{(i\varphi)}&lt;/script&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\|{S_a(t)}\|&lt;/script&gt; is referred to as the Envelope of &lt;script type=&quot;math/tex&quot;&gt;S(t)&lt;/script&gt;.
+&lt;script type=&quot;math/tex&quot;&gt;\varphi&lt;/script&gt; is referred to as the Instantaneous Phase of &lt;script type=&quot;math/tex&quot;&gt;S(t)&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Instantaneous Frequency &lt;script type=&quot;math/tex&quot;&gt;IF&lt;/script&gt; (especially meaningful for sweeps) is the time-derivative of the Instantaneous Phase.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;IF = \frac{d\varphi}{dt} . \frac{1}{2\pi}&lt;/script&gt;
+
+&lt;p&gt;&lt;a href=&quot;todo&quot;&gt;link to the sweep article&lt;/a&gt;&lt;/p&gt;
+</content>
+
+			
+				<category term="seismic_processing" />
+			
+			
+				<category term="phase" />
+			
+				<category term="signal processing" />
+			
+
+			<published>2016-12-15T00:00:00-06:00</published>
+		</entry>
+	
+		<entry>
+			<id>http://localhost:4000/seismic_processing/SigProc_CorrelationLevels/</id>
+			<title>Correlation Amplitude Levels</title>
+			<link href="http://localhost:4000/seismic_processing/SigProc_CorrelationLevels/" rel="alternate" type="text/html" title="Correlation Amplitude Levels" />
+			<updated>2016-12-15T00:00:00-06:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Olivier</name>
+					
+					
+					
+				</author>
+			
+			<summary>What kind of normalisation can be found on correlated vibroseis data</summary>
+			<content type="html" xml:base="http://localhost:4000/seismic_processing/SigProc_CorrelationLevels/">&lt;p&gt;In frequency domain the correlation can be written as the multiplication of uncorrelated data &lt;script type=&quot;math/tex&quot;&gt;D_u&lt;/script&gt; by the complex conjugate of the reference &lt;script type=&quot;math/tex&quot;&gt;S&lt;/script&gt; :&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;D_c(\nu)=‎ D_u(\nu).\bar{S}(\nu)&lt;/script&gt;
+
+&lt;p&gt;The resulting scaling amplitude of the result is obviously linked to the reference power (length, drive etc…).
+Several options for the scaling :&lt;/p&gt;
+
+&lt;h3 id=&quot;normalize-the-correlation-according-to-the-total-energy-of-the-reference-used-&quot;&gt;Normalize the correlation according to the total energy of the reference used :&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;D_c(\nu) = \frac{D_u(\nu).\bar{S(\nu)}}{\sum{S_n^2}}&lt;/script&gt;
+
+&lt;p&gt;In this case the gain of the obtained “Earth Response” is independent of the reference : &lt;strong&gt;all the signal is at the same level&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;normalize-the-correlation-according-to-the-signal-to-noise-ratio-&quot;&gt;Normalize the correlation according to the signal-to-noise ratio :&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;D_c(\nu) = \frac{D_u(\nu).\bar{S(\nu)}}{\sqrt{\sum{S_n^2}}}&lt;/script&gt;
+
+&lt;p&gt;In this case the gain of the obtained “Earth Response” id scaled according to the reference and &lt;strong&gt;all the noise is at the same level&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;hybrid-sercel-unite428-version-&quot;&gt;Hybrid Sercel Unite/428 version :&lt;/h3&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;D_c(\nu) = \frac{2.D_u(\nu).\bar{S(\nu)}}{N.\sum{S_n^2}}&lt;/script&gt;
+
+&lt;p&gt;Here the obtained “Earth Response” is scaled on the amplitude part of the reference but not on its length. The sweep length has no impact on the output gain.&lt;/p&gt;
+
+</content>
+
+			
+				<category term="seismic_processing" />
+			
+			
+				<category term="vibroseis" />
+			
+				<category term="signal processing" />
+			
+				<category term="correlation" />
+			
+
+			<published>2016-12-15T00:00:00-06:00</published>
+		</entry>
+	
+		<entry>
+			<id>http://localhost:4000/seismic_processing/SeisProc_IntervalRmsVelocities/</id>
+			<title>Interval and RMS velocities</title>
+			<link href="http://localhost:4000/seismic_processing/SeisProc_IntervalRmsVelocities/" rel="alternate" type="text/html" title="Interval and RMS velocities" />
+			<updated>2016-12-15T00:00:00-06:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Olivier</name>
+					
+					
+					
+				</author>
+			
+			<summary>Seismic Processing</summary>
+			<content type="html" xml:base="http://localhost:4000/seismic_processing/SeisProc_IntervalRmsVelocities/">&lt;p&gt;The Dix conversion allows to translate RMS velocities (stacking velocities) to interval velocities (borehole velocities).&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;V_{int(n)}= \sqrt{ \frac{ V_{rms(n)}^2\tau_{(n)} - V_{rms(n-1)}^2\tau_{(n-1)}} {\tau_{(n)}-\tau_{(n-1)}} }&lt;/script&gt;
+
+&lt;p&gt;After re-arranging to get RMS velocities from interval velocities:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;V_{rms(n)}= \sqrt{ \frac{ V_{int(n)}^2(\tau_{(n)}-\tau_{(n-1)}) + V_{rms(n-1)}^2\tau_{(n-1)}} {\tau_{(n)}} }&lt;/script&gt;
+
+&lt;p&gt;See Yilmaz, Vol 2, pp. 1534 for the full demonstration of the result.&lt;/p&gt;
+
+&lt;h3 id=&quot;further-reading&quot;&gt;Further reading&lt;/h3&gt;
+&lt;p&gt;Oz Yilmaz. Seismic data analysis. Society of Exploration Geophysicists, 2001.&lt;/p&gt;
+</content>
+
+			
+				<category term="seismic_processing" />
+			
+			
+				<category term="velocities" />
+			
+
+			<published>2016-12-15T00:00:00-06:00</published>
+		</entry>
+	
+		<entry>
+			<id>http://localhost:4000/seismic_processing/SeisMod_FiniteDifferences/</id>
+			<title>Solving the Wave-Equation using Finite-Differences</title>
+			<link href="http://localhost:4000/seismic_processing/SeisMod_FiniteDifferences/" rel="alternate" type="text/html" title="Solving the Wave-Equation using Finite-Differences" />
+			<updated>2016-12-15T00:00:00-06:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Olivier</name>
+					
+					
+					
+				</author>
+			
+			<summary>Seismic modeling</summary>
+			<content type="html" xml:base="http://localhost:4000/seismic_processing/SeisMod_FiniteDifferences/">&lt;h2 id=&quot;acoustic-wave-equation&quot;&gt;Acoustic Wave equation&lt;/h2&gt;
+
+&lt;p&gt;The acoustic wave equation for dimensions &lt;script type=&quot;math/tex&quot;&gt;x,y,z&lt;/script&gt; with a medium velocity &lt;script type=&quot;math/tex&quot;&gt;c&lt;/script&gt; :&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{\partial^2p}{\partial t^2} = c^2\nabla^2p = c^2\bigg[\frac{\partial^2p}{\partial x^2}+\frac{\partial^2p}{\partial y^2}+\frac{\partial^2p}{\partial z^2}\bigg]&lt;/script&gt;
+
+&lt;p&gt;A first-order in time and N-order in space explicit finite-difference scheme will be compute the Pressure wave-field &lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt; at time &lt;script type=&quot;math/tex&quot;&gt;t&lt;/script&gt; recursively:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;P^{(t+1)} = 2\times P^{(t)} - P^{(t-1)} + \bigg(\frac{V}{dt\times dx}\bigg).\bigg(OP*P^{(t)}\bigg)&lt;/script&gt;
+
+&lt;p&gt;Where &lt;script type=&quot;math/tex&quot;&gt;*&lt;/script&gt; denotes convolution and &lt;script type=&quot;math/tex&quot;&gt;OP&lt;/script&gt; is a spatial derivative operator.
+The computation of the spatial operator coefficients is detailed in Fornberg.&lt;/p&gt;
+
+&lt;h2 id=&quot;elastic-wave-equation&quot;&gt;Elastic Wave equation&lt;/h2&gt;
+&lt;p&gt;The elastic case involves the 6 components of stress &lt;script type=&quot;math/tex&quot;&gt;S_{ij}&lt;/script&gt; and the 3 components of displacement &lt;script type=&quot;math/tex&quot;&gt;u_i&lt;/script&gt; ;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;S_{xx} = (\lambda + 2\mu)\frac{\partial }{\partial_x} u_x+ \lambda \frac{\partial }{\partial_y} u_y + \lambda \frac{\partial }{\partial_z} u_z&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;S_{yy} = (\lambda + 2\mu)\frac{\partial }{\partial_y} u_y+ \lambda \frac{\partial }{\partial_x} u_x + \lambda \frac{\partial }{\partial_z} u_z&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;S_{zz} = (\lambda + 2\mu)\frac{\partial }{\partial_z} u_z+ \lambda \frac{\partial }{\partial_y} u_y + \lambda \frac{\partial }{\partial_x} u_x&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;S_{xy}=\mu \bigg[\frac{\partial }{\partial x} u_y + \frac{\partial }{\partial y} u_x \bigg]&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;S_{xz}=\mu \bigg[\frac{\partial }{\partial x} u_z + \frac{\partial }{\partial z} u_x \bigg]&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;S_{yz}=\mu \bigg[\frac{\partial }{\partial y} u_z + \frac{\partial }{\partial z} u_y \bigg]&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rho\frac{\partial^2 }{\partial t^2} u_x = \frac{\partial }{\partial x} S_{xx} +\frac{\partial }{\partial y} S_{xy} +\frac{\partial }{\partial z} S_{xz}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rho\frac{\partial^2 }{\partial t^2} u_y = \frac{\partial }{\partial y} S_{yy} +\frac{\partial }{\partial x} S_{xy} +\frac{\partial }{\partial z} S_{yz}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rho\frac{\partial^2 }{\partial t^2} u_z = \frac{\partial }{\partial z} S_{zz} +\frac{\partial }{\partial y} S_{yz} +\frac{\partial }{\partial x} S_{xz}&lt;/script&gt;
+
+&lt;h3 id=&quot;references-and-further-reading&quot;&gt;References and Further Reading&lt;/h3&gt;
+&lt;p&gt;B. Fornberg. Generation of finite difference formulas on arbitrary spaced grids, 1988. Mathematics of Computation, Vol. 51, No. 184, pp. 699-706.&lt;/p&gt;
+
+&lt;p&gt;Jean Virieux. P-SV wave propagation in heterogeneous media: Velocity‐stress finite‐difference method. GEOPHYSICS 1986 51:4, 889-901.&lt;/p&gt;
+</content>
+
+			
+				<category term="seismic_processing" />
+			
+			
+				<category term="modeling" />
+			
+
+			<published>2016-12-15T00:00:00-06:00</published>
+		</entry>
+	
+		<entry>
+			<id>http://localhost:4000/seismic_reservoir/RockPhysics_Elasticity/</id>
+			<title>Elasticity</title>
+			<link href="http://localhost:4000/seismic_reservoir/RockPhysics_Elasticity/" rel="alternate" type="text/html" title="Elasticity" />
+			<updated>2016-12-15T00:00:00-06:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Olivier</name>
+					
+					
+					
+				</author>
+			
+			<summary>Basics of Elasticity for the Geophysicist in a Hurry.</summary>
+			<content type="html" xml:base="http://localhost:4000/seismic_reservoir/RockPhysics_Elasticity/">&lt;h2 id=&quot;hookes-law&quot;&gt;Hooke’s law&lt;/h2&gt;
+
+&lt;p&gt;Strain &lt;script type=&quot;math/tex&quot;&gt;\varepsilon&lt;/script&gt; (dimensionless :  &lt;script type=&quot;math/tex&quot;&gt;\varepsilon = \frac{\partial u}{u}&lt;/script&gt;, where &lt;script type=&quot;math/tex&quot;&gt;u&lt;/script&gt; is a distance).
+Stress &lt;script type=&quot;math/tex&quot;&gt;\sigma&lt;/script&gt; (&lt;script type=&quot;math/tex&quot;&gt;Pa&lt;/script&gt;, equivalent to &lt;script type=&quot;math/tex&quot;&gt;N.m^{-2}&lt;/script&gt;) 
+Modulus of elasticity or Young’s Modulus &lt;script type=&quot;math/tex&quot;&gt;E&lt;/script&gt; (&lt;script type=&quot;math/tex&quot;&gt;Pa&lt;/script&gt;, equivalent to &lt;script type=&quot;math/tex&quot;&gt;N.m^{-2}&lt;/script&gt;)&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sigma = E.\varepsilon&lt;/script&gt;
+
+&lt;h2 id=&quot;tensors&quot;&gt;Tensors&lt;/h2&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\sigma_{xy} = 
+\begin{pmatrix}
+\sigma_{11}&amp;\sigma_{12}&amp;\sigma_{13}&amp; \\\
+\sigma_{21}&amp;\sigma_{22}&amp;\sigma_{33}&amp; \\\
+\sigma_{31}&amp;\sigma_{32}&amp;\sigma_{33}&amp; \\\
+\end{pmatrix}
+,
+\varepsilon_{xy} = 
+\begin{pmatrix}
+\varepsilon_{11}&amp;\varepsilon_{12}&amp;\varepsilon_{13}&amp; \\\
+\varepsilon_{21}&amp;\varepsilon_{22}&amp;\varepsilon_{33}&amp; \\\
+\varepsilon_{31}&amp;\varepsilon_{32}&amp;\varepsilon_{33}&amp; \\\
+\end{pmatrix} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;Symmetry implies &lt;script type=&quot;math/tex&quot;&gt;\sigma_{ij}=\sigma_{ji}&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\varepsilon_{ij}=\varepsilon_{ji}&lt;/script&gt; which leaves 6 unique terms in both tensors.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/b/b3/Components_stress_tensor_cartesian.svg&quot; alt=&quot;Cauchy Stress Tensor&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cauchy Stress Tensor.
+By Sanpaz (Own work) &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/3.0&quot;&gt;CC BY-SA 3.0&lt;/a&gt; or &lt;a href=&quot;http://www.gnu.org/copyleft/fdl.html&quot;&gt;GFDL&lt;/a&gt;], via Wikimedia Commons&lt;/p&gt;
+
+&lt;h2 id=&quot;elastic-material-constants&quot;&gt;Elastic material constants&lt;/h2&gt;
+&lt;h4 id=&quot;youngs-modulus---equivalent-to-&quot;&gt;Young’s Modulus , (&lt;script type=&quot;math/tex&quot;&gt;Pa&lt;/script&gt;, equivalent to &lt;script type=&quot;math/tex&quot;&gt;N.m^{-2}&lt;/script&gt;).&lt;/h4&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;E =  \frac{\sigma_{11}}{\varepsilon_{11}}&lt;/script&gt;
+
+&lt;h4 id=&quot;poissons-ratio-dimensionless--ratio-of-strains&quot;&gt;Poisson’s Ratio (dimensionless : ratio of strains).&lt;/h4&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\nu =  \frac{\varepsilon_{33}}{\varepsilon_{11}}&lt;/script&gt;
+
+&lt;h4 id=&quot;shear-modulus---&quot;&gt;Shear Modulus &lt;script type=&quot;math/tex&quot;&gt;\mu&lt;/script&gt; , (&lt;script type=&quot;math/tex&quot;&gt;Pa \Leftrightarrow N.m^{-2} \Leftrightarrow kg.m^{-1}.s^{-2}&lt;/script&gt;).&lt;/h4&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mu =  \frac{1}{2} . \frac{\sigma_{13}}{\varepsilon_{13}}&lt;/script&gt;
+
+&lt;h4 id=&quot;bulk-modulus---&quot;&gt;Bulk Modulus &lt;script type=&quot;math/tex&quot;&gt;K&lt;/script&gt; , (&lt;script type=&quot;math/tex&quot;&gt;Pa \Leftrightarrow N.m^{-2} \Leftrightarrow kg.m^{-1}.s^{-2}&lt;/script&gt;).&lt;/h4&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;K =  \frac{\sigma_{00}}{\varepsilon_{00}} = \frac{\sigma_{11}+\sigma_{22}+\sigma_{33}}{\varepsilon_{11}+\varepsilon_{22}+\varepsilon_{33}}&lt;/script&gt;
+
+&lt;h2 id=&quot;seismic-velocities-as-a-function-of-lame-parameters&quot;&gt;Seismic velocities as a function of Lame parameters&lt;/h2&gt;
+&lt;h4 id=&quot;p-wave-velocity-&quot;&gt;P-Wave velocity (&lt;script type=&quot;math/tex&quot;&gt;m.s^{-1}&lt;/script&gt;)&lt;/h4&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;V_{p}=\sqrt{\frac{K+\frac{4}{3}\mu}{\rho}} = \sqrt{\frac{\lambda+2\mu}{\rho}}&lt;/script&gt;
+
+&lt;h4 id=&quot;s-wave-velocity-&quot;&gt;S-Wave velocity (&lt;script type=&quot;math/tex&quot;&gt;m.s^{-1}&lt;/script&gt;)&lt;/h4&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;V_{s}=\sqrt{\frac{\mu}{\rho}}&lt;/script&gt;
+
+&lt;h4 id=&quot;lame-parameters-&quot;&gt;Lame parameters (&lt;script type=&quot;math/tex&quot;&gt;Pa \Leftrightarrow N.m^{-2} \Leftrightarrow kg.m^{-1}.s^{-2}&lt;/script&gt;):&lt;/h4&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\mu = V_s^2 \rho&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\lambda = \rho (V_p^2 - 2V_s^2)&lt;/script&gt;
+
+&lt;h2 id=&quot;stiffness-pmatrix---voigt-notation&quot;&gt;Stiffness pmatrix - Voigt notation&lt;/h2&gt;
+&lt;p&gt;In the anisotropic case, the relation between stress and strain is a 6 by 6 tensor.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{pmatrix}
+\sigma_{1}\\\
+\sigma_{2}\\\
+\sigma_{3}\\\
+\sigma_{4}\\\
+\sigma_{5}\\\
+\sigma_{6}\\\
+\end{pmatrix}
+=
+\begin{pmatrix}
+c_{11}&amp;c_{12}&amp;c_{13}&amp;c_{14}&amp;c_{15}&amp;c_{16}\\\
+c_{21}&amp;c_{22}&amp;c_{23}&amp;c_{24}&amp;c_{25}&amp;c_{26}\\\
+c_{31}&amp;c_{32}&amp;c_{33}&amp;c_{34}&amp;c_{35}&amp;c_{36}\\\
+c_{41}&amp;c_{42}&amp;c_{43}&amp;c_{44}&amp;c_{45}&amp;c_{46}\\\
+c_{51}&amp;c_{52}&amp;c_{53}&amp;c_{54}&amp;c_{55}&amp;c_{56}\\\
+c_{61}&amp;c_{62}&amp;c_{63}&amp;c_{64}&amp;c_{65}&amp;c_{66}\\\
+\end{pmatrix}
+.
+\begin{pmatrix}
+\varepsilon_{1}\\\
+\varepsilon_{2}\\\
+\varepsilon_{3}\\\
+\varepsilon_{4}\\\
+\varepsilon_{5}\\\
+\varepsilon_{6}\\\
+\end{pmatrix} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;where&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{pmatrix}
+\sigma_{1}\\\
+\sigma_{2}\\\
+\sigma_{3}\\\
+\sigma_{4}\\\
+\sigma_{5}\\\
+\sigma_{6}\\\
+\end{pmatrix}
+=
+\begin{pmatrix}
+\sigma_{11}\\\
+\sigma_{22}\\\
+\sigma_{33}\\\
+\sigma_{23}\\\
+\sigma_{13}\\\
+\sigma_{12}\\\
+\end{pmatrix}
+, and, 
+\begin{pmatrix}
+\varepsilon_{1}\\\
+\varepsilon_{2}\\\
+\varepsilon_{3}\\\
+\varepsilon_{4}\\\
+\varepsilon_{5}\\\
+\varepsilon_{6}\\\
+\end{pmatrix}
+=
+\begin{pmatrix}
+\varepsilon_{11}\\\
+\varepsilon_{22}\\\
+\varepsilon_{33}\\\
+\varepsilon_{23}\\\
+\varepsilon_{13}\\\
+\varepsilon_{12}\\\
+\end{pmatrix}&lt;/script&gt;
+
+&lt;h2 id=&quot;stiffness-matrix---isotropic-material&quot;&gt;Stiffness matrix - Isotropic Material&lt;/h2&gt;
+&lt;p&gt;In the isotropic case, the relation between stress and strain depends only on 2 parameters : &lt;script type=&quot;math/tex&quot;&gt;c_{11}&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;c_{44}&lt;/script&gt;.
+The isotropic solid has no preferred direction regarding elastic properties.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+C=
+\begin{pmatrix}
+c_{11}&amp;c_{11}-2c_{44}&amp;c_{11}-2c_{44}&amp;0&amp;0&amp;0\\\
+c_{11}-2c_{44}&amp;c_{11}&amp;c_{11}-2c_{44}&amp;0&amp;0&amp;0\\\
+c_{11}-2c_{44}&amp;c_{11}-2c_{44}&amp;c_{11}&amp;0&amp;0&amp;0\\\
+0&amp;0&amp;0&amp;c_{44}&amp;0&amp;0\\\
+0&amp;0&amp;0&amp;0&amp;c_{44}&amp;0\\\
+0&amp;0&amp;0&amp;0&amp;0&amp;c_{44}\\\
+\end{pmatrix} %]]&gt;&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+C=
+\begin{pmatrix}
+\lambda + 2\mu &amp; \lambda &amp; \lambda&amp;0&amp;0&amp;0\\\
+\lambda &amp; \lambda + 2\mu  &amp; \lambda&amp;0&amp;0&amp;0\\\
+\lambda &amp; \lambda &amp; \lambda + 2\mu  &amp;0&amp;0&amp;0\\\
+0&amp;0&amp;0&amp;\mu&amp;0&amp;0\\\
+0&amp;0&amp;0&amp;0&amp;\mu&amp;0\\\
+0&amp;0&amp;0&amp;0&amp;0&amp;\mu\\\
+\end{pmatrix} %]]&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;stiffness-matrix---vti-material&quot;&gt;Stiffness matrix - VTI Material&lt;/h2&gt;
+&lt;p&gt;Material with a vertical axis of symmetry (layer cake), 5 parameters in the stiffness matrix.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+C=
+\begin{pmatrix}
+c_{11}&amp;c_{11}-2c_{66}&amp;c_{13}&amp;0&amp;0&amp;0\\\
+c_{11}-2c_{66}&amp;c_{11}&amp;c_{13}&amp;0&amp;0&amp;0\\\
+c_{13}&amp;c_{13}&amp;c_{33}&amp;0&amp;0&amp;0\\\
+0&amp;0&amp;0&amp;c_{44}&amp;0&amp;0\\\
+0&amp;0&amp;0&amp;0&amp;c_{44}&amp;0\\\
+0&amp;0&amp;0&amp;0&amp;0&amp;c_{66}\\\
+\end{pmatrix} %]]&gt;&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;V_{PH} = \sqrt{\frac{c_{11}}{\rho}},\quad
+V_{PV} = \sqrt{\frac{c_{33}}{\rho}},\quad
+V_{SH} = \sqrt{\frac{c_{44}}{\rho}},\quad
+V_{SV} = \sqrt{\frac{c_{66}}{\rho}};&lt;/script&gt;
+
+&lt;h2 id=&quot;stiffness-matrix---hti-material&quot;&gt;Stiffness matrix - HTI Material&lt;/h2&gt;
+&lt;p&gt;Material with an horizontal axis of symmetry, this is the transposed of the VTI case, 5 parameters.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+C=
+\begin{pmatrix}
+c_{11}&amp;c_{13}&amp;c_{13}&amp;0&amp;0&amp;0\\\
+c_{13}&amp;c_{33}&amp;c_{33}-2c_{44}&amp;0&amp;0&amp;0\\\
+c_{13}&amp;c_{33}-2c_{44}&amp;c_{33}&amp;0&amp;0&amp;0\\\
+0&amp;0&amp;0&amp;c_{44}&amp;0&amp;0\\\
+0&amp;0&amp;0&amp;0&amp;c_{55}&amp;0\\\
+0&amp;0&amp;0&amp;0&amp;0&amp;c_{55}\\\
+\end{pmatrix} %]]&gt;&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;V_{PH} = \sqrt{\frac{c_{11}}{\rho}},\quad
+V_{PV} = \sqrt{\frac{c_{33}}{\rho}},\quad
+V_{SH} = \sqrt{\frac{c_{44}}{\rho}},\quad
+V_{SV} = \sqrt{\frac{c_{55}}{\rho}};&lt;/script&gt;
+
+&lt;h2 id=&quot;stiffness-matrix---orthorhombic-material&quot;&gt;Stiffness matrix - Orthorhombic Material&lt;/h2&gt;
+&lt;p&gt;Material with three mutually orthogonal axis of symmetry : 9 parameters in the stiffness matrix.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+C=
+\begin{pmatrix}
+c_{11}&amp;c_{12}&amp;c_{13}&amp;0&amp;0&amp;0\\\
+c_{12}&amp;c_{22}&amp;c_{23}&amp;0&amp;0&amp;0\\\
+c_{13}&amp;c_{23}&amp;c_{33}&amp;0&amp;0&amp;0\\\
+0&amp;0&amp;0&amp;c_{44}&amp;0&amp;0\\\
+0&amp;0&amp;0&amp;0&amp;c_{55}&amp;0\\\
+0&amp;0&amp;0&amp;0&amp;0&amp;c_{66}\\\
+\end{pmatrix} %]]&gt;&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{aligned}
+V_{PH1} = \sqrt{\frac{c_{11}}{\rho}},\quad
+V_{PH2} = \sqrt{\frac{c_{22}}{\rho}},\quad
+V_{PV}  = \sqrt{\frac{c_{33}}{\rho}};
+\end{aligned}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{aligned}
+V_{SH1} = \sqrt{\frac{c_{44}}{\rho}},\quad
+V_{SH2} = \sqrt{\frac{c_{55}}{\rho}},\quad
+V_{SV} = \sqrt{\frac{c_{66}}{\rho}};
+\end{aligned}&lt;/script&gt;
+
+</content>
+
+			
+				<category term="seismic_reservoir" />
+			
+			
+				<category term="anisotropy" />
+			
+				<category term="rock physics" />
+			
+				<category term="elasticity" />
+			
+				<category term="modeling" />
+			
+
+			<published>2016-12-15T00:00:00-06:00</published>
+		</entry>
+	
+		<entry>
+			<id>http://localhost:4000/seismic_reservoir/RockPhysics_Anisotropy/</id>
+			<title>P-wave anisotropy : Thomsen &amp; Tsvankin Parameters</title>
+			<link href="http://localhost:4000/seismic_reservoir/RockPhysics_Anisotropy/" rel="alternate" type="text/html" title="P-wave anisotropy : Thomsen &amp; Tsvankin Parameters" />
+			<updated>2016-12-15T00:00:00-06:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Olivier</name>
+					
+					
+					
+				</author>
+			
+			<summary>A little primer on the connection between elasticity and seismic velocities.</summary>
+			<content type="html" xml:base="http://localhost:4000/seismic_reservoir/RockPhysics_Anisotropy/">&lt;p&gt;The weak anisotropy developed by Thomsen for the VTI case was extended to the Orthorhombic case by Tsanvskin &lt;sup id=&quot;a1&quot;&gt;&lt;a href=&quot;#f1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p style=&quot;color:gray; font-size: 80%; text-align: center;&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/Velocities_Tsvanskin.png&quot; alt=&quot;Geophone Response&quot; /&gt;
+Thomsen Parameters in different symmetries.&lt;/p&gt;
+
+&lt;h2 id=&quot;velocities-in-vti&quot;&gt;Velocities in VTI&lt;/h2&gt;
+
+&lt;p&gt;Reference velocities and equivalences: (cf. Thomsen 1986 &lt;sup id=&quot;a2&quot;&gt;&lt;a href=&quot;#f2&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.)&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;V_{P0} = V_{PV} = \sqrt{\frac{c_{33}}{\rho}},\quad
+V_{S0} = V_{SH1} = V_{SH2} = \sqrt{\frac{c_{55}}{\rho}},&lt;/script&gt;
+
+&lt;p&gt;Velocity as a function of incidence angle &lt;script type=&quot;math/tex&quot;&gt;\theta&lt;/script&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{aligned}
+V_P(\theta) = V_{P0}\bigg[1+\delta\sin^2 \theta \cos^2\theta + \epsilon \sin^4 \theta \bigg]\\
+V_{SV}(\theta) = V_{S0}\bigg[ 1 +\frac{V_{P0}^ 2}{V_{S0}^2}(\epsilon - \delta) \sin^2 \theta \cos^2 \theta \bigg]\\
+V_{SH}(\theta) = V_{S0}\bigg[ 1 + \gamma \sin^2\theta \bigg]\\
+\end{aligned}&lt;/script&gt;
+
+&lt;h2 id=&quot;velocities-in-hti&quot;&gt;Velocities in HTI&lt;/h2&gt;
+
+&lt;p&gt;Reference velocities and equivalences: (cf. Ruger 1997 &lt;sup id=&quot;a3&quot;&gt;&lt;a href=&quot;#f3&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;.)&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;V_{P0} = V_{PV} = V_{PH2} = \sqrt{\frac{c_{33}}{\rho}},\quad&lt;/script&gt;
+
+&lt;p&gt;Velocity as a function of incidence angle &lt;script type=&quot;math/tex&quot;&gt;\theta&lt;/script&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{aligned}
+V_P(\theta,\phi) = V_{P0}\bigg[1+\delta^{(V)} \sin^2 \theta \cos^2 \phi + (\epsilon^{(V)} - \delta^{(V)}) \sin^4 \theta\cos^4 \phi \bigg]\\
+\end{aligned}&lt;/script&gt;
+
+&lt;h2 id=&quot;velocities-in-orthorhombic-medium&quot;&gt;Velocities in Orthorhombic Medium&lt;/h2&gt;
+&lt;p&gt;Reference velocities and equivalences:  (cf. Ruger 1998 &lt;sup id=&quot;a4&quot;&gt;&lt;a href=&quot;#f4&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;.)&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;V_{P0} = V_{PV} = \sqrt{\frac{c_{33}}{\rho}},\quad&lt;/script&gt;
+
+&lt;p&gt;Velocity as a function of incidence angle &lt;script type=&quot;math/tex&quot;&gt;\theta&lt;/script&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{aligned}
+V_P(\theta,\phi) =  V_{P0}\bigg[1+\delta(\psi)\sin^2 \theta \cos^2\theta + \epsilon(\phi) \sin^4 \theta \bigg]\\
+\delta(\phi) = \delta^{(1)}\sin^2\phi + \delta^{(2)} \cos^2 \phi \\
+\epsilon(\phi) = \epsilon^{(1)} \sin^4 \phi + \epsilon^{(2)} \cos^4 \phi + (2\epsilon^{(2)} + \delta^{(3)})\sin^2 \phi \cos^2 \phi
+\end{aligned}&lt;/script&gt;
+
+&lt;h3 id=&quot;references-and-further-reading&quot;&gt;References and Further Reading&lt;/h3&gt;
+
+&lt;p&gt;&lt;b id=&quot;f1&quot;&gt;1: Tsvankin 1997 &lt;/b&gt; &lt;a href=&quot;#a1&quot;&gt;↩&lt;/a&gt;
+Ilya Tsvankin. Anisotropic parameters and pwave velocity for orthorhombic media. GEOPHYSICS, 62(4) :1292–1309, 1997. doi :10.1190/1.1444231. &lt;a href=&quot;http://dx.doi.org/10.1190/1.1444231&quot;&gt;URL&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b id=&quot;f2&quot;&gt; 2: Thomsen 1986&lt;/b&gt; &lt;a href=&quot;#a2&quot;&gt;↩&lt;/a&gt;
+Leon Thomsen. Weak elastic anisotropy. GEOPHYSICS, 51 (10) :1954–1966, 1986. doi : 10.1190/1.1442051. &lt;a href=&quot;http://dx.doi.org/10.1190/1.1442051&quot;&gt;URL&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b id=&quot;f3&quot;&gt;3: Rüger 1997&lt;/b&gt;  &lt;a href=&quot;#a3&quot;&gt;↩&lt;/a&gt;
+Andreas Rüger. Pwave reflection coefficients for transversely isotropic models with vertical and horizontal axis of symmetry. GEOPHYSICS, 62(3) :713–722, 1997. doi : 10.1190/1.1444181. &lt;a href=&quot;http://dx.doi.org/10.1190/1.1444181&quot;&gt;URL&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b id=&quot;f4&quot;&gt;4: Rüger 1998&lt;/b&gt;  &lt;a href=&quot;#a4&quot;&gt;↩&lt;/a&gt;
+Andreas Rüger. Variation of p-wave reflectivity with offset and azimuth in anisotropic media. GEOPHYSICS, 63(3) :935–947, 1998. doi :10.1190/1.1444405. &lt;a href=&quot;http://dx.doi.org/10.1190/1.1444405&quot;&gt;URL&lt;/a&gt;&lt;/p&gt;
+</content>
+
+			
+				<category term="seismic_reservoir" />
+			
+			
+				<category term="anisotropy" />
+			
+				<category term="rock physics" />
+			
+				<category term="elasticity" />
+			
+				<category term="modeling" />
+			
+
+			<published>2016-12-15T00:00:00-06:00</published>
+		</entry>
+	
+		<entry>
+			<id>http://localhost:4000/seismic_reservoir/QI_SeismicInversion/</id>
+			<title>Quantitative Interpretation</title>
+			<link href="http://localhost:4000/seismic_reservoir/QI_SeismicInversion/" rel="alternate" type="text/html" title="Quantitative Interpretation" />
+			<updated>2016-12-15T00:00:00-06:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Olivier</name>
+					
+					
+					
+				</author>
+			
+			<summary>AVA basics</summary>
+			<content type="html" xml:base="http://localhost:4000/seismic_reservoir/QI_SeismicInversion/">&lt;h2 id=&quot;acoustic-impedance&quot;&gt;Acoustic Impedance&lt;/h2&gt;
+
+&lt;p&gt;Acoustic impedance can be seen as a measure of the opposition a medium offers to an acoustic pressure applied.
+This is the basic equation relating reflectivity &lt;script type=&quot;math/tex&quot;&gt;R_{P0}&lt;/script&gt;, to acoustic impedance &lt;script type=&quot;math/tex&quot;&gt;Z_{P}&lt;/script&gt; for the &lt;script type=&quot;math/tex&quot;&gt;i^{th}&lt;/script&gt; interface in a layered Earth.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;R_{P0i} = \frac{\rho_{i+1}V_{Pi+1}-\rho_iV_{Pi}}{\rho_{i+1}V_{Pi+1}+\rho_iV_{Pi}}= \frac{Z_{Pi+1} - Z_{Pi}}{Z_{Pi+1} + Z_{Pi}}&lt;/script&gt;
+
+&lt;p&gt;Where :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;Z_{Pi} = \rho_{i}V_{Pi}&lt;/script&gt;, is the 1D acoustic impedance (&lt;script type=&quot;math/tex&quot;&gt;Pa.m^{-1}&lt;/script&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;\rho_{i}&lt;/script&gt; is the density (&lt;script type=&quot;math/tex&quot;&gt;kg.m^{-3}&lt;/script&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;V_{Pi}&lt;/script&gt; is the P-wave velocity (&lt;script type=&quot;math/tex&quot;&gt;m.s^{-2}&lt;/script&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Reflection_at_an_interface.png/605px-Reflection_at_an_interface.png&quot; alt=&quot;Reflection at an interface&quot; /&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color:gray; font-size: 80%; text-align: center;&quot;&gt;Reflection at an interface.
+By Nwhit (Own work) &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/3.0&quot;&gt;CC BY-SA 3.0&lt;/a&gt;, via Wikimedia Commons.&lt;/p&gt;
+
+&lt;h2 id=&quot;ava&quot;&gt;AVA&lt;/h2&gt;
+
+&lt;h3 id=&quot;converting-from-offset-to-angle&quot;&gt;Converting from offset to angle&lt;/h3&gt;
+
+&lt;p&gt;The straight ray assumption :&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\theta=\arctan{\left(\frac{offset}{2\times depth}\right)}=\arctan{\left(\frac{offset}{t_{pick} \times V_{rms}}\right)}&lt;/script&gt;
+
+&lt;p&gt;Using the ray parameter with Yilmaz:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\theta=\arctan{\left(\frac{offset\times V_{int}}{t_{pick}\times V_{rms}^2}\right)}&lt;/script&gt;
+
+&lt;h3 id=&quot;full-zoeppritz-equations&quot;&gt;Full Zoeppritz Equations&lt;/h3&gt;
+
+&lt;p&gt;Zoeppritz (1881-1908) derived a set of equations that describe the partitioning of seismic wave energy at an interface. They relate the amplitude of an incident P-wave to the resulting reflected and refracted P and S-waves. They are the basis of AVO (amplitude versus offset) and AVA (amplitude versus angle), wich consists in analysing the amplitude of returning waves when the incident angle is altered.&lt;/p&gt;
+
+&lt;p&gt;This is the full formulation of Zoeppritz equations :&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{pmatrix}
+-\sin{\theta_1}&amp;-\cos{\phi_1}&amp;-\sin{\theta_2}&amp;\cos{\phi_2}\\\
+\cos{\theta_1}&amp;-\sin{\phi_1}&amp;\cos{\theta_2}&amp;-\sin{\phi_2}\\\
+\sin{2\theta_1}&amp;\frac{V_{P1}}{V_{S1}}\cos{2\phi_1}&amp;\frac{\rho_2V_{S2}^2V_{P1}}{\rho_1V_{S1}^2V_{P1}}\cos{2\phi_1}&amp;\frac{\rho_2V_{S2}V_{P1}}{\rho_1V_{S1}^2}\cos{2\phi_2}\\\
+-\cos{2\phi_1}&amp;\frac{V_{S1}}{V_{P1}}\sin{2\phi_1}&amp;\frac{\rho_2V_{P2}}{\rho_1V_{P1}}\cos{2\phi_2}&amp;-\frac{\rho_2V_{S2}}{\rho_1V_{P1}}\sin{2\phi_2}\\\
+\end{pmatrix}
+.
+\begin{pmatrix}
+R_P(\theta_1)\\\
+R_S(\theta_1)\\\
+T_P(\theta_1)\\\
+T_S(\theta_1)\\\
+\end{pmatrix}
+= %]]&gt;&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{pmatrix}
+\sin{\theta_1}\\\
+\cos{\theta_1}\\\
+\sin{2\theta_1}\\\
+\cos{2\phi_1}\\\
+\end{pmatrix}&lt;/script&gt;
+
+&lt;h3 id=&quot;linearisation-of-the-zoeppritz-equations&quot;&gt;Linearisation of the Zoeppritz Equations&lt;/h3&gt;
+
+&lt;h4 id=&quot;linearisation-of-the-zoeppritz-equations--wiggins-suey-and-fatti-intercept-and-gradient-formulation&quot;&gt;Linearisation of the Zoeppritz Equations : Wiggins/ Suey and Fatti Intercept and Gradient formulation&lt;/h4&gt;
+&lt;p&gt;Sometimes considered as “the” AVO equation (cf. Shuey 1985 &lt;sup id=&quot;a1&quot;&gt;&lt;a href=&quot;#f1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.)&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;R_{PP}(\theta)= R_{P0} +G\sin^2{\theta} + C\tan^2{\theta} \sin^2{\theta}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;R_{P0} = \frac{\Delta V_p}{2V_p}+\frac{\Delta \rho}{2\rho}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;G = \frac{\Delta V_p}{2V_p} + \frac{V_s^2}{V_p^2}  \bigg( -8 \frac{\Delta V_s}{2V_s} - 4 \frac{\Delta \rho}{2\rho}\bigg)&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;C = \frac{\Delta V_p}{2V_p}&lt;/script&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;R_0&lt;/script&gt; is referred as the intercept, &lt;script type=&quot;math/tex&quot;&gt;G&lt;/script&gt; as the gradient and &lt;script type=&quot;math/tex&quot;&gt;F&lt;/script&gt; as the third-term.
+&lt;script type=&quot;math/tex&quot;&gt;V_p&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;V_s&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\rho&lt;/script&gt; are the average P-wave velocity, S-wave velocity and density for the two layers.
+&lt;script type=&quot;math/tex&quot;&gt;\Delta V_p&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;\Delta V_s&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\Delta\rho&lt;/script&gt; are the difference of P-wave velocities, S-wave velocities and densities for the two layers.&lt;/p&gt;
+
+&lt;h4 id=&quot;linearisation-of-the-zoeppritz-equations--fatti-and-smith&quot;&gt;Linearisation of the Zoeppritz Equations : Fatti and Smith&lt;/h4&gt;
+&lt;p&gt;Another form of the AVO equation was formulated by Fatti and Smith &lt;sup id=&quot;a2&quot;&gt;&lt;a href=&quot;#f2&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; . Practical for pre-stack inversion.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;R_{pp}(\theta)=aR_{P0} + bR_{S0} + c'R_D&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;a=1+\tan^2{\theta}, b=-8\frac{V_s^2}{V_p^2}\sin^2{\theta}, c'=4\frac{V_s^2}{V_p^2}\sin^2{\theta}-\tan^2{\theta}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;R_{P0}=\frac{1}{2}\left(\frac{\Delta V_p}{V_p}+\frac{\Delta\rho}{\rho}\right)&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;R_{S0}=\frac{1}{2}\left(\frac{\Delta V_s}{V_s}+\frac{\Delta\rho}{\rho}\right)&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;R_{D}=\frac{1}{2}\frac{\Delta V_p}{V_p}&lt;/script&gt;
+
+&lt;p&gt;In practice, the amplitudes are extracted from an horizon and the parameters from a linearised equation are estimated using a regression.&lt;/p&gt;
+
+&lt;h2 id=&quot;avaz&quot;&gt;AVAz&lt;/h2&gt;
+
+&lt;h3 id=&quot;linearisation-of-the-zoeppritz-equations-in-hti-medium--rugers-equation&quot;&gt;Linearisation of the Zoeppritz Equations in HTI medium : Ruger’s equation&lt;/h3&gt;
+
+&lt;p&gt;Ruger &lt;sup id=&quot;a3&quot;&gt;&lt;a href=&quot;#f3&quot;&gt;3,&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&quot;a3&quot;&gt;&lt;a href=&quot;#f3&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; linearized the Zoeppritz equation for an HTI half-space under an isotropic half-space.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;R(\theta,\phi) = R_{P0} + ( G_{iso} + G_{ani}\cos^2 \phi) \sin^2 \theta + ( C_{iso} + C_{ani}) \sin^2\theta  \tan^2 \theta&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;G_{ani} = \frac{1}{2} \bigg[\Delta \delta^{(V)} - 8 \Big(\frac{V_s}{V_p}\Big)^2 \Delta \gamma^{(V)} \bigg]&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;C_{ani} = \frac{1}{2} \bigg[\Delta \delta^{(V)} \sin^2 \phi + \Delta \epsilon ^{(V)} \cos^ 2 \phi\bigg] \cos^2 \phi&lt;/script&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;R_{P0}&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;G&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt;, are the isotropic terms from Shuey and Fatti, &lt;script type=&quot;math/tex&quot;&gt;\epsilon^{(V)}&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;\delta^{(V)}&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;\gamma^{(V)}&lt;/script&gt; are the Thomsen parameters defined with respect to vertical, &lt;script type=&quot;math/tex&quot;&gt;\theta&lt;/script&gt; is the incidence angle, and &lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt; the azimuth angle.&lt;/p&gt;
+
+&lt;h3 id=&quot;references-and-further-reading&quot;&gt;References and Further Reading&lt;/h3&gt;
+&lt;p&gt;&lt;b id=&quot;f1&quot;&gt;1: Shuey(1985)&lt;/b&gt;  &lt;a href=&quot;#a1&quot;&gt;↩&lt;/a&gt;
+R. T. Shuey. A simplification of the zoeppritz equations. GEOPHYSICS, 50(4) :609–614, 1985. doi : 10.1190/1.1441936. &lt;a href=&quot;http://dx.doi.org/10.1190/1.1441936&quot;&gt;URL&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b id=&quot;f2&quot;&gt;2: Fatti et al.(1994)&lt;/b&gt;  &lt;a href=&quot;#a2&quot;&gt;↩&lt;/a&gt;
+Jan L. Fatti,George C. Smith, Peter J. Vail, Peter J. Strauss, and Philip R. Levitt. Detection of gas in sandstone reservoirs using avo analysis : A 3-d seismic case history using the geostack technique. GEOPHYSICS, 59(9) :1362–1376, 1994. doi : 10.1190/1.1443695. &lt;a href=&quot;http://dx.doi.org/10.1190/1.1443695&quot;&gt;URL&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b id=&quot;f3&quot;&gt;3: Rüger 1997&lt;/b&gt;  &lt;a href=&quot;#a3&quot;&gt;↩&lt;/a&gt;
+Andreas Rüger. Pwave reflection coefficients for transversely isotropic models with vertical and horizontal axis of symmetry. GEOPHYSICS, 62(3) :713–722, 1997. doi : 10.1190/1.1444181. &lt;a href=&quot;http://dx.doi.org/10.1190/1.1444181&quot;&gt;URL&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b id=&quot;f4&quot;&gt;4: Rüger 1998&lt;/b&gt;  &lt;a href=&quot;#a4&quot;&gt;↩&lt;/a&gt;
+Andreas Rüger. Variation of p-wave reflectivity with offset and azimuth in anisotropic media. GEOPHYSICS, 63(3) :935–947, 1998. doi :10.1190/1.1444405. &lt;a href=&quot;http://dx.doi.org/10.1190/1.1444405&quot;&gt;URL&lt;/a&gt;&lt;/p&gt;
+</content>
+
+			
+				<category term="seismic_reservoir" />
+			
+			
+				<category term="differential calculus" />
+			
+
+			<published>2016-12-15T00:00:00-06:00</published>
+		</entry>
+	
+</feed>
