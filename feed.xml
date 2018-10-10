@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="http://localhost:4000/assets/xslt/rss.xslt" ?>
-<?xml-stylesheet type="text/css" href="http://localhost:4000/assets/css/rss.css" ?>
+<?xml-stylesheet type="text/xsl" href="https://oliche.github.io/assets/xslt/rss.xslt" ?>
+<?xml-stylesheet type="text/css" href="https://oliche.github.io/assets/css/rss.css" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Seismic Crumbs</title>
 		<description>Bits and Pieces of Seismic</description>
-		<link>http://localhost:4000/</link>
-		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		<link>https://oliche.github.io/</link>
+		<atom:link href="https://oliche.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>SVD and PCA</title>
-				<link>http://localhost:4000/seismic_maths/Math_SVD/</link>
+				<link>https://oliche.github.io/seismic_maths/Math_SVD/</link>
 				<pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
 				<description>&lt;h2 id=&quot;svd&quot;&gt;SVD&lt;/h2&gt;
 &lt;p&gt;For an inverse problem:
@@ -75,12 +75,12 @@ Sigma = cov(x);
 &lt;h3 id=&quot;references-and-further-reading&quot;&gt;References and Further Reading&lt;/h3&gt;
 &lt;p&gt;R. Aster, B. Borchers, C. Thurber. Parameter Estimation and Inverse Problems.&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/seismic_maths/Math_SVD/</guid>
+				<guid isPermaLink="true">https://oliche.github.io/seismic_maths/Math_SVD/</guid>
 			</item>
 		
 			<item>
 				<title>Statistics</title>
-				<link>http://localhost:4000/seismic_maths/Math_StatisticsSurvivalSkills/</link>
+				<link>https://oliche.github.io/seismic_maths/Math_StatisticsSurvivalSkills/</link>
 				<pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
 				<description>&lt;h2 id=&quot;definitions&quot;&gt;Definitions&lt;/h2&gt;
 &lt;ul&gt;
@@ -281,12 +281,12 @@ P(E|C, \neg F) &lt; P(E | \neg C, \neg F)\\\\
 &lt;p&gt;J. Pearl. Causality: Models, Reasoning and Inference. Second Edition.
 N. Silver. The Signal and the Noise: Why So Many Predictions Fail but Some Don’t.&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/seismic_maths/Math_StatisticsSurvivalSkills/</guid>
+				<guid isPermaLink="true">https://oliche.github.io/seismic_maths/Math_StatisticsSurvivalSkills/</guid>
 			</item>
 		
 			<item>
 				<title>PSD </title>
-				<link>http://localhost:4000/seismic_processing/SigProc_PowerSpectralDensity/</link>
+				<link>https://oliche.github.io/seismic_processing/SigProc_PowerSpectralDensity/</link>
 				<pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
 				<description>&lt;p&gt;For an input in millivolts (&lt;script type=&quot;math/tex&quot;&gt;mV&lt;/script&gt;) &lt;strong&gt;Power Spectral Density&lt;/strong&gt; (PSD) is expressed in (&lt;script type=&quot;math/tex&quot;&gt;mV^2.Hz^{-1}&lt;/script&gt;). The &lt;strong&gt;Spectral density&lt;/strong&gt; is in (&lt;script type=&quot;math/tex&quot;&gt;mV.(\sqrt{Hz})^{-1}&lt;/script&gt;).
 The PSD is defined as follows for a finite time serie &lt;script type=&quot;math/tex&quot;&gt;x_n&lt;/script&gt; of length &lt;script type=&quot;math/tex&quot;&gt;T&lt;/script&gt; secs sampled at &lt;script type=&quot;math/tex&quot;&gt;\Delta t&lt;/script&gt; secs :&lt;/p&gt;
@@ -318,12 +318,12 @@ The PSD is defined as follows for a finite time serie &lt;script type=&quot;math
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 </description>
-				<guid isPermaLink="true">http://localhost:4000/seismic_processing/SigProc_PowerSpectralDensity/</guid>
+				<guid isPermaLink="true">https://oliche.github.io/seismic_processing/SigProc_PowerSpectralDensity/</guid>
 			</item>
 		
 			<item>
 				<title>Minimum Phase </title>
-				<link>http://localhost:4000/seismic_processing/SigProc_MinimumPhase/</link>
+				<link>https://oliche.github.io/seismic_processing/SigProc_MinimumPhase/</link>
 				<pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
 				<description>&lt;p&gt;A system is minimum phase when it is &lt;strong&gt;causal and stable&lt;/strong&gt;, and if its inverse is also &lt;strong&gt;causal and stable&lt;/strong&gt;.
 A filter is minimum phase when all of its poles and zeroes are inside the unit circle.&lt;/p&gt;
@@ -339,12 +339,12 @@ A filter is minimum phase when all of its poles and zeroes are inside the unit c
 	&lt;span class=&quot;n&quot;&gt;W&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;flipud&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;real&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ifft&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;exp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hilbert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;real&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;fft&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;W&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))))))));&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/seismic_processing/SigProc_MinimumPhase/</guid>
+				<guid isPermaLink="true">https://oliche.github.io/seismic_processing/SigProc_MinimumPhase/</guid>
 			</item>
 		
 			<item>
 				<title>Instantaneous Phase and Frequency </title>
-				<link>http://localhost:4000/seismic_processing/SigProc_InstantaneousPhase/</link>
+				<link>https://oliche.github.io/seismic_processing/SigProc_InstantaneousPhase/</link>
 				<pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
 				<description>&lt;p&gt;The analytic signal &lt;script type=&quot;math/tex&quot;&gt;S_a(t)&lt;/script&gt; is a complex representation of a real time serie &lt;script type=&quot;math/tex&quot;&gt;S(t)&lt;/script&gt;. Its real part is the signal &lt;script type=&quot;math/tex&quot;&gt;S(t)&lt;/script&gt;&lt;/p&gt;
 
@@ -367,12 +367,12 @@ A filter is minimum phase when all of its poles and zeroes are inside the unit c
 
 &lt;p&gt;&lt;a href=&quot;todo&quot;&gt;link to the sweep article&lt;/a&gt;&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/seismic_processing/SigProc_InstantaneousPhase/</guid>
+				<guid isPermaLink="true">https://oliche.github.io/seismic_processing/SigProc_InstantaneousPhase/</guid>
 			</item>
 		
 			<item>
 				<title>Correlation Amplitude Levels</title>
-				<link>http://localhost:4000/seismic_processing/SigProc_CorrelationLevels/</link>
+				<link>https://oliche.github.io/seismic_processing/SigProc_CorrelationLevels/</link>
 				<pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
 				<description>&lt;p&gt;In frequency domain the correlation can be written as the multiplication of uncorrelated data &lt;script type=&quot;math/tex&quot;&gt;D_u&lt;/script&gt; by the complex conjugate of the reference &lt;script type=&quot;math/tex&quot;&gt;S&lt;/script&gt; :&lt;/p&gt;
 
@@ -400,12 +400,12 @@ Several options for the scaling :&lt;/p&gt;
 &lt;p&gt;Here the obtained “Earth Response” is scaled on the amplitude part of the reference but not on its length. The sweep length has no impact on the output gain.&lt;/p&gt;
 
 </description>
-				<guid isPermaLink="true">http://localhost:4000/seismic_processing/SigProc_CorrelationLevels/</guid>
+				<guid isPermaLink="true">https://oliche.github.io/seismic_processing/SigProc_CorrelationLevels/</guid>
 			</item>
 		
 			<item>
 				<title>Interval and RMS velocities</title>
-				<link>http://localhost:4000/seismic_processing/SeisProc_IntervalRmsVelocities/</link>
+				<link>https://oliche.github.io/seismic_processing/SeisProc_IntervalRmsVelocities/</link>
 				<pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
 				<description>&lt;p&gt;The Dix conversion allows to translate RMS velocities (stacking velocities) to interval velocities (borehole velocities).&lt;/p&gt;
 
@@ -420,12 +420,12 @@ Several options for the scaling :&lt;/p&gt;
 &lt;h3 id=&quot;further-reading&quot;&gt;Further reading&lt;/h3&gt;
 &lt;p&gt;Oz Yilmaz. Seismic data analysis. Society of Exploration Geophysicists, 2001.&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/seismic_processing/SeisProc_IntervalRmsVelocities/</guid>
+				<guid isPermaLink="true">https://oliche.github.io/seismic_processing/SeisProc_IntervalRmsVelocities/</guid>
 			</item>
 		
 			<item>
 				<title>Solving the Wave-Equation using Finite-Differences</title>
-				<link>http://localhost:4000/seismic_processing/SeisMod_FiniteDifferences/</link>
+				<link>https://oliche.github.io/seismic_processing/SeisMod_FiniteDifferences/</link>
 				<pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
 				<description>&lt;h2 id=&quot;acoustic-wave-equation&quot;&gt;Acoustic Wave equation&lt;/h2&gt;
 
@@ -466,12 +466,12 @@ The computation of the spatial operator coefficients is detailed in Fornberg.&lt
 
 &lt;p&gt;Jean Virieux. P-SV wave propagation in heterogeneous media: Velocity‐stress finite‐difference method. GEOPHYSICS 1986 51:4, 889-901.&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/seismic_processing/SeisMod_FiniteDifferences/</guid>
+				<guid isPermaLink="true">https://oliche.github.io/seismic_processing/SeisMod_FiniteDifferences/</guid>
 			</item>
 		
 			<item>
 				<title>Elasticity</title>
-				<link>http://localhost:4000/seismic_reservoir/RockPhysics_Elasticity/</link>
+				<link>https://oliche.github.io/seismic_reservoir/RockPhysics_Elasticity/</link>
 				<pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
 				<description>&lt;h2 id=&quot;hookes-law&quot;&gt;Hooke’s law&lt;/h2&gt;
 
@@ -705,16 +705,16 @@ V_{SV} = \sqrt{\frac{c_{66}}{\rho}};
 \end{aligned}&lt;/script&gt;
 
 </description>
-				<guid isPermaLink="true">http://localhost:4000/seismic_reservoir/RockPhysics_Elasticity/</guid>
+				<guid isPermaLink="true">https://oliche.github.io/seismic_reservoir/RockPhysics_Elasticity/</guid>
 			</item>
 		
 			<item>
 				<title>P-wave anisotropy : Thomsen &amp; Tsvankin Parameters</title>
-				<link>http://localhost:4000/seismic_reservoir/RockPhysics_Anisotropy/</link>
+				<link>https://oliche.github.io/seismic_reservoir/RockPhysics_Anisotropy/</link>
 				<pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
 				<description>&lt;p&gt;The weak anisotropy developed by Thomsen for the VTI case was extended to the Orthorhombic case by Tsanvskin &lt;sup id=&quot;a1&quot;&gt;&lt;a href=&quot;#f1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
-&lt;p style=&quot;color:gray; font-size: 80%; text-align: center;&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/Velocities_Tsvanskin.png&quot; alt=&quot;Geophone Response&quot; /&gt;
+&lt;p style=&quot;color:gray; font-size: 80%; text-align: center;&quot;&gt;&lt;img src=&quot;https://oliche.github.io/images/Velocities_Tsvanskin.png&quot; alt=&quot;Geophone Response&quot; /&gt;
 Thomsen Parameters in different symmetries.&lt;/p&gt;
 
 &lt;h2 id=&quot;velocities-in-vti&quot;&gt;Velocities in VTI&lt;/h2&gt;
@@ -771,7 +771,7 @@ Andreas Rüger. Pwave reflection coefficients for transversely isotropic models 
 &lt;p&gt;&lt;b id=&quot;f4&quot;&gt;4: Rüger 1998&lt;/b&gt;  &lt;a href=&quot;#a4&quot;&gt;↩&lt;/a&gt;
 Andreas Rüger. Variation of p-wave reflectivity with offset and azimuth in anisotropic media. GEOPHYSICS, 63(3) :935–947, 1998. doi :10.1190/1.1444405. &lt;a href=&quot;http://dx.doi.org/10.1190/1.1444405&quot;&gt;URL&lt;/a&gt;&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/seismic_reservoir/RockPhysics_Anisotropy/</guid>
+				<guid isPermaLink="true">https://oliche.github.io/seismic_reservoir/RockPhysics_Anisotropy/</guid>
 			</item>
 		
 	</channel>
