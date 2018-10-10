@@ -5,9 +5,9 @@
 
 	
 	<url>
-	<loc>https://oliche.github.io/404.html</loc>
+	<loc>http://localhost:4000/404.html</loc>
 	
-		<lastmod>2018-10-10T22:25:11+01:00</lastmod>
+		<lastmod>2018-10-10T22:37:03+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -20,26 +20,9 @@
 
 	
 	<url>
-	<loc>https://oliche.github.io/blog/archive/</loc>
+	<loc>http://localhost:4000/blog/archive/</loc>
 	
-		<lastmod>2018-10-10T22:25:11+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-
-	
-	<url>
-	<loc>https://oliche.github.io/atom.xml</loc>
-	
-		<lastmod>2018-10-10T22:25:11+01:00</lastmod>
+		<lastmod>2018-10-10T22:37:03+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -54,223 +37,9 @@
 
 	
 	<url>
-	<loc>https://oliche.github.io/code_libraries/</loc>
+	<loc>http://localhost:4000/atom.xml</loc>
 	
-		<lastmod>2018-10-10T22:25:11+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://oliche.github.io/feed.xml</loc>
-	
-		<lastmod>2018-10-10T22:25:11+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://oliche.github.io/humans.txt</loc>
-	
-		<lastmod>2018-10-10T22:25:11+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://oliche.github.io/blog/</loc>
-	
-		<lastmod>2018-10-10T22:25:11+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://oliche.github.io/</loc>
-	
-		<lastmod>2018-10-10T22:25:11+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://oliche.github.io/info/</loc>
-	
-		<lastmod>2018-10-10T22:25:11+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://oliche.github.io/redirect-page/</loc>
-	
-		<lastmod>2018-10-10T22:25:11+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://oliche.github.io/robots.txt</loc>
-	
-		<lastmod>2018-10-10T22:25:11+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-
-	
-
-	
-	<url>
-	<loc>https://oliche.github.io/seismic/</loc>
-	
-		<lastmod>2018-10-10T22:25:11+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://oliche.github.io/seismic_acquisition/</loc>
-	
-		<lastmod>2018-10-10T22:25:11+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://oliche.github.io/seismic_design/</loc>
-	
-		<lastmod>2018-10-10T22:25:11+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://oliche.github.io/seismic_maths/</loc>
-	
-		<lastmod>2018-10-10T22:25:11+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://oliche.github.io/seismic_processing/</loc>
-	
-		<lastmod>2018-10-10T22:25:11+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://oliche.github.io/seismic_reservoir/</loc>
-	
-		<lastmod>2018-10-10T22:25:11+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://oliche.github.io/sitemap.xml</loc>
-	
-		<lastmod>2018-10-10T22:25:11+01:00</lastmod>
+		<lastmod>2018-10-10T22:37:03+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -285,24 +54,9 @@
 
 	
 	<url>
-	<loc>https://oliche.github.io/blog/page2/</loc>
+	<loc>http://localhost:4000/code_libraries/</loc>
 	
-		<lastmod>2018-10-10T22:25:11+01:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://oliche.github.io/blog/page3/</loc>
-	
-		<lastmod>2018-10-10T22:25:11+01:00</lastmod>
+		<lastmod>2018-10-10T22:37:03+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -315,9 +69,255 @@
 
 	
 	<url>
-	<loc>https://oliche.github.io/blog/page4/</loc>
+	<loc>http://localhost:4000/feed.xml</loc>
 	
-		<lastmod>2018-10-10T22:25:11+01:00</lastmod>
+		<lastmod>2018-10-10T22:37:03+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/humans.txt</loc>
+	
+		<lastmod>2018-10-10T22:37:03+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/blog/</loc>
+	
+		<lastmod>2018-10-10T22:37:03+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/</loc>
+	
+		<lastmod>2018-10-10T22:37:03+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/info/</loc>
+	
+		<lastmod>2018-10-10T22:37:03+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/redirect-page/</loc>
+	
+		<lastmod>2018-10-10T22:37:03+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/robots.txt</loc>
+	
+		<lastmod>2018-10-10T22:37:03+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/seismic/</loc>
+	
+		<lastmod>2018-10-10T22:37:03+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/seismic_acquisition/</loc>
+	
+		<lastmod>2018-10-10T22:37:03+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/seismic_design/</loc>
+	
+		<lastmod>2018-10-10T22:37:03+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/seismic_maths/</loc>
+	
+		<lastmod>2018-10-10T22:37:03+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/seismic_processing/</loc>
+	
+		<lastmod>2018-10-10T22:37:03+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/seismic_reservoir/</loc>
+	
+		<lastmod>2018-10-10T22:37:03+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/sitemap.xml</loc>
+	
+		<lastmod>2018-10-10T22:37:03+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/blog/page2/</loc>
+	
+		<lastmod>2018-10-10T22:37:03+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/blog/page3/</loc>
+	
+		<lastmod>2018-10-10T22:37:03+01:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/blog/page4/</loc>
+	
+		<lastmod>2018-10-10T22:37:03+01:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -333,7 +333,7 @@
 
 	
 	<url>
-	<loc>https://oliche.github.io/seismic_maths/Math_SVD/</loc>
+	<loc>http://localhost:4000/seismic_maths/Math_SVD/</loc>
 	
 		<lastmod>2018-02-10T00:00:00+00:00</lastmod>
 	
@@ -348,7 +348,7 @@
 
 	
 	<url>
-	<loc>https://oliche.github.io/seismic_maths/Math_StatisticsSurvivalSkills/</loc>
+	<loc>http://localhost:4000/seismic_maths/Math_StatisticsSurvivalSkills/</loc>
 	
 		<lastmod>2017-12-13T00:00:00+00:00</lastmod>
 	
@@ -363,7 +363,7 @@
 
 	
 	<url>
-	<loc>https://oliche.github.io/seismic_processing/SigProc_PowerSpectralDensity/</loc>
+	<loc>http://localhost:4000/seismic_processing/SigProc_PowerSpectralDensity/</loc>
 	
 		<lastmod>2016-12-15T00:00:00+00:00</lastmod>
 	
@@ -378,7 +378,7 @@
 
 	
 	<url>
-	<loc>https://oliche.github.io/seismic_processing/SigProc_MinimumPhase/</loc>
+	<loc>http://localhost:4000/seismic_processing/SigProc_MinimumPhase/</loc>
 	
 		<lastmod>2016-12-15T00:00:00+00:00</lastmod>
 	
@@ -393,7 +393,7 @@
 
 	
 	<url>
-	<loc>https://oliche.github.io/seismic_processing/SigProc_InstantaneousPhase/</loc>
+	<loc>http://localhost:4000/seismic_processing/SigProc_InstantaneousPhase/</loc>
 	
 		<lastmod>2016-12-15T00:00:00+00:00</lastmod>
 	
@@ -408,7 +408,7 @@
 
 	
 	<url>
-	<loc>https://oliche.github.io/seismic_processing/SigProc_CorrelationLevels/</loc>
+	<loc>http://localhost:4000/seismic_processing/SigProc_CorrelationLevels/</loc>
 	
 		<lastmod>2016-12-15T00:00:00+00:00</lastmod>
 	
@@ -423,7 +423,7 @@
 
 	
 	<url>
-	<loc>https://oliche.github.io/seismic_processing/SeisProc_IntervalRmsVelocities/</loc>
+	<loc>http://localhost:4000/seismic_processing/SeisProc_IntervalRmsVelocities/</loc>
 	
 		<lastmod>2016-12-15T00:00:00+00:00</lastmod>
 	
@@ -438,7 +438,7 @@
 
 	
 	<url>
-	<loc>https://oliche.github.io/seismic_processing/SeisMod_FiniteDifferences/</loc>
+	<loc>http://localhost:4000/seismic_processing/SeisMod_FiniteDifferences/</loc>
 	
 		<lastmod>2016-12-15T00:00:00+00:00</lastmod>
 	
@@ -453,7 +453,7 @@
 
 	
 	<url>
-	<loc>https://oliche.github.io/seismic_reservoir/RockPhysics_Elasticity/</loc>
+	<loc>http://localhost:4000/seismic_reservoir/RockPhysics_Elasticity/</loc>
 	
 		<lastmod>2016-12-15T00:00:00+00:00</lastmod>
 	
@@ -468,7 +468,7 @@
 
 	
 	<url>
-	<loc>https://oliche.github.io/seismic_reservoir/RockPhysics_Anisotropy/</loc>
+	<loc>http://localhost:4000/seismic_reservoir/RockPhysics_Anisotropy/</loc>
 	
 		<lastmod>2016-12-15T00:00:00+00:00</lastmod>
 	
@@ -483,7 +483,7 @@
 
 	
 	<url>
-	<loc>https://oliche.github.io/seismic_reservoir/QI_SeismicInversion/</loc>
+	<loc>http://localhost:4000/seismic_reservoir/QI_SeismicInversion/</loc>
 	
 		<lastmod>2016-12-15T00:00:00+00:00</lastmod>
 	
@@ -498,7 +498,7 @@
 
 	
 	<url>
-	<loc>https://oliche.github.io/seismic_maths/Math_VectorCalculus/</loc>
+	<loc>http://localhost:4000/seismic_maths/Math_VectorCalculus/</loc>
 	
 		<lastmod>2016-12-15T00:00:00+00:00</lastmod>
 	
@@ -513,7 +513,7 @@
 
 	
 	<url>
-	<loc>https://oliche.github.io/seismic_maths/Math_VariancePropagation/</loc>
+	<loc>http://localhost:4000/seismic_maths/Math_VariancePropagation/</loc>
 	
 		<lastmod>2016-12-15T00:00:00+00:00</lastmod>
 	
@@ -528,7 +528,7 @@
 
 	
 	<url>
-	<loc>https://oliche.github.io/seismic_maths/Math_ParabolaInterpolation/</loc>
+	<loc>http://localhost:4000/seismic_maths/Math_ParabolaInterpolation/</loc>
 	
 		<lastmod>2016-12-15T00:00:00+00:00</lastmod>
 	
@@ -543,7 +543,7 @@
 
 	
 	<url>
-	<loc>https://oliche.github.io/seismic_maths/Math_BayesianInverse/</loc>
+	<loc>http://localhost:4000/seismic_maths/Math_BayesianInverse/</loc>
 	
 		<lastmod>2016-12-15T00:00:00+00:00</lastmod>
 	
@@ -558,7 +558,7 @@
 
 	
 	<url>
-	<loc>https://oliche.github.io/seismic_design/Design_TargetOriented/</loc>
+	<loc>http://localhost:4000/seismic_design/Design_TargetOriented/</loc>
 	
 		<lastmod>2016-12-15T00:00:00+00:00</lastmod>
 	
@@ -573,7 +573,7 @@
 
 	
 	<url>
-	<loc>https://oliche.github.io/seismic_design/Design_SpatialAliasing/</loc>
+	<loc>http://localhost:4000/seismic_design/Design_SpatialAliasing/</loc>
 	
 		<lastmod>2016-12-15T00:00:00+00:00</lastmod>
 	
@@ -588,7 +588,7 @@
 
 	
 	<url>
-	<loc>https://oliche.github.io/seismic_acquisition/Acq_SweepEquation/</loc>
+	<loc>http://localhost:4000/seismic_acquisition/Acq_SweepEquation/</loc>
 	
 		<lastmod>2016-12-15T00:00:00+00:00</lastmod>
 	
@@ -603,7 +603,7 @@
 
 	
 	<url>
-	<loc>https://oliche.github.io/seismic_acquisition/Acq_GeophoneWiring/</loc>
+	<loc>http://localhost:4000/seismic_acquisition/Acq_GeophoneWiring/</loc>
 	
 		<lastmod>2016-12-15T00:00:00+00:00</lastmod>
 	
@@ -618,7 +618,7 @@
 
 	
 	<url>
-	<loc>https://oliche.github.io/seismic_acquisition/Acq_GeophoneResponse/</loc>
+	<loc>http://localhost:4000/seismic_acquisition/Acq_GeophoneResponse/</loc>
 	
 		<lastmod>2016-12-15T00:00:00+00:00</lastmod>
 	

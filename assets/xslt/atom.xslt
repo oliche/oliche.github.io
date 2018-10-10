@@ -10,11 +10,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Atom Feed (Styled)</title>
 
-    <link rel="stylesheet" type="text/css" href="https://oliche.github.io/assets/css/styles_feeling_responsive.css">
+    <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles_feeling_responsive.css">
 
   
 
-	<script src="https://oliche.github.io/assets/js/modernizr.min.js"></script>
+	<script src="http://localhost:4000/assets/js/modernizr.min.js"></script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
 	<script>
@@ -38,13 +38,13 @@
 	
 	
 	
-	<link rel="canonical" href="https://oliche.github.io/assets/xslt/atom.xslt">
+	<link rel="canonical" href="http://localhost:4000/assets/xslt/atom.xslt">
 
 
 	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="Atom Feed (Styled)">
 	<meta property="og:description" content="Bits and Pieces of Seismic">
-	<meta property="og:url" content="https://oliche.github.io/assets/xslt/atom.xslt">
+	<meta property="og:url" content="http://localhost:4000/assets/xslt/atom.xslt">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Seismic Crumbs">
@@ -54,7 +54,7 @@
 
 	
 
-	<link type="text/plain" rel="author" href="https://oliche.github.io/humans.txt">
+	<link type="text/plain" rel="author" href="http://localhost:4000/humans.txt">
 
 	
 
@@ -95,7 +95,7 @@
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-      <h1 class="show-for-small-only"><a href="https://oliche.github.io" class="icon-tree"> Seismic Crumbs</a></h1>
+      <h1 class="show-for-small-only"><a href="http://localhost:4000" class="icon-tree"> Seismic Crumbs</a></h1>
     </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span>Nav</span></a></li>
@@ -130,7 +130,7 @@
             
             
               <li class="divider"></li>
-              <li><a  href="https://oliche.github.io/blog/archive/">Archive</a></li>
+              <li><a  href="http://localhost:4000/blog/archive/">Archive</a></li>
 
             
             
@@ -144,7 +144,7 @@
             
             
               <li class="divider"></li>
-              <li><a  href="https://oliche.github.io/info/">About</a></li>
+              <li><a  href="http://localhost:4000/info/">About</a></li>
 
             
             
@@ -163,7 +163,7 @@
 
             
             
-              <li><a  href="https://oliche.github.io/">Home</a></li>
+              <li><a  href="http://localhost:4000/">Home</a></li>
               <li class="divider"></li>
 
             
@@ -180,34 +180,34 @@
             
 
               <li class="has-dropdown">
-                <a  href="https://oliche.github.io/seismic/">Seismic</a>
+                <a  href="http://localhost:4000/seismic/">Seismic</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="https://oliche.github.io/seismic_acquisition/">Acquisition</a></li>
+                      <li><a  href="http://localhost:4000/seismic_acquisition/">Acquisition</a></li>
                     
 
                       
 
-                      <li><a  href="https://oliche.github.io/seismic_design/">Survey Design</a></li>
+                      <li><a  href="http://localhost:4000/seismic_design/">Survey Design</a></li>
                     
 
                       
 
-                      <li><a  href="https://oliche.github.io/seismic_maths/">Mathematical Tools</a></li>
+                      <li><a  href="http://localhost:4000/seismic_maths/">Mathematical Tools</a></li>
                     
 
                       
 
-                      <li><a  href="https://oliche.github.io/seismic_processing/">Seismic Processing</a></li>
+                      <li><a  href="http://localhost:4000/seismic_processing/">Seismic Processing</a></li>
                     
 
                       
 
-                      <li><a  href="https://oliche.github.io/seismic_reservoir/">Reservoir</a></li>
+                      <li><a  href="http://localhost:4000/seismic_reservoir/">Reservoir</a></li>
                     
                   </ul>
 
@@ -226,14 +226,14 @@
             
 
               <li class="has-dropdown">
-                <a  href="https://oliche.github.io/code_libraries/">Codes</a>
+                <a  href="http://localhost:4000/code_libraries/">Codes</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="https://oliche.github.io/code_libraries/">Matlab</a></li>
+                      <li><a  href="http://localhost:4000/code_libraries/">Matlab</a></li>
                     
                   </ul>
 
@@ -265,8 +265,8 @@
 <div id="masthead-no-image-header">
 	<div class="row">
 		<div class="small-12 columns">
-			<a id="logo" href="https://oliche.github.io/" title="Seismic Crumbs – Bits and Pieces of Seismic">
-				<img src="https://oliche.github.io/assets/img/logo.png" alt="Seismic Crumbs – Bits and Pieces of Seismic">
+			<a id="logo" href="http://localhost:4000/" title="Seismic Crumbs – Bits and Pieces of Seismic">
+				<img src="http://localhost:4000/assets/img/logo.png" alt="Seismic Crumbs – Bits and Pieces of Seismic">
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
@@ -344,7 +344,7 @@
 
             <p class="shadow-black">
               Bits and Pieces of Seismic
-              <a href="https://oliche.github.io/info/">More ›</a>
+              <a href="http://localhost:4000/info/">More ›</a>
             </p>
           </div><!-- /.large-6.columns -->
 
@@ -371,7 +371,7 @@
             
               
                 <li >
-                  <a href="https://oliche.github.io"  title=""></a>
+                  <a href="http://localhost:4000"  title=""></a>
                 </li>
             
               
@@ -408,7 +408,7 @@
 		
 
 
-<script src="https://oliche.github.io/assets/js/javascript.min.js"></script>
+<script src="http://localhost:4000/assets/js/javascript.min.js"></script>
 
 
 
