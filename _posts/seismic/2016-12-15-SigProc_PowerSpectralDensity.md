@@ -31,7 +31,7 @@ $$
 
 It means that the sum of square of a signal is the same in time domain and in frequency domain. 
 
-The Parseval theorem serves to prove that the RMS equals the square root of the PSD integration over the bandwidth (and is a good way to write a unit test...).
+The Parseval theorem serves to prove that the RMS equals the square root of the PSD integration over the bandwidth (and it is a good way to write a unit test...).
 
 $$
  RMS=\sqrt{\frac{1}{N}\sum_1^N{x_n^2}}=\sqrt{\int_{f_1}^{f_2} PSD(f)  df}
@@ -52,4 +52,26 @@ $$
     sqrt( sum(SD.^2).*df) ./ rms(W)
 ```
 
+## Python example :
+In Python things are simpler because the `rfft` scales according to the power spectral density directly.
 
+```python
+import numpy as np
+from scipy import fft
+
+ns = 2501  # number of sample
+si = 0.001  # sampling interval (s)
+
+w = np.random.rand(ns, 1)
+w = w - np.mean(w)
+df = 1 / si / ns
+
+# spectral density
+sd = np.abs(fft.rfft(w))
+
+# Parseval verified
+np.sum(sd ** 2) / np.sum(w ** 2)
+
+# rms is the root of integration of the PSD
+np.sqrt(np.sum(sd ** 2)) / np.sqrt(np.sum(w ** 2))
+```
