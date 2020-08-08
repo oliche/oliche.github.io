@@ -13,3 +13,5 @@ gem 'coderay'
 
 #gem 'jekyll-pandoc'
 gem 'redcarpet'
+gem "kramdown", ">= 2.3.0"
+
