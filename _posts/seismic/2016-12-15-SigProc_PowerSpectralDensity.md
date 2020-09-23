@@ -16,7 +16,7 @@ header:
 ---
 
 
-For an input in millivolts ($$mV$$) **Power Spectral Density** (PSD) is expressed in ($$mV^2.Hz^{-1}$$). The **Spectral density** is in ($$mV.(\sqrt{Hz})^{-1}$$).
+For an input in millivolts $$mV$$ **Power Spectral Density** (PSD) is expressed in $$mV^2.Hz^{-1}$$. The **Spectral density** is in $$mV.(\sqrt{Hz})^{-1}$$.
 The PSD is defined as follows for a finite time serie $$x_n$$ of length $$T$$ secs sampled at $$\Delta t$$ secs :
 
 $$
@@ -40,16 +40,16 @@ $$
 ## Matlab example :
 
 ```matlab
-    %% PSD
-    Nech=2501; Si=0.001; % 2501 samples at 1ms
-    W=rand(Nech,1); W=W-mean(W);
-    df=1/Si/Nech;
-    % Spectral density
-    SD=decons(abs(fft(W)).*sqrt(2*Si/Nech));
-    % Parseval verified
-    sum( SD.^2 / Si) ./ sum(W.^2)
-    % Rms is the root of integration of the PSD
-    sqrt( sum(SD.^2).*df) ./ rms(W)
+%% PSD
+Nech=2501; Si=0.001; % 2501 samples at 1ms
+W=rand(Nech,1); W=W-mean(W);
+df=1/Si/Nech;
+% Spectral density
+SD=decons(abs(fft(W)).*sqrt(2*Si/Nech));
+% Parseval verified
+sum( SD.^2 / Si) ./ sum(W.^2)
+% Rms is the root of integration of the PSD
+sqrt( sum(SD.^2).*df) ./ rms(W)
 ```
 
 ## Python example :

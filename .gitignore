@@ -1,4 +1,5 @@
 _site/
 .idea/
+.jekyll-cache/
 .sass-cache/
 Gemfile.lock
