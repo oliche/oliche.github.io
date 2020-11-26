@@ -20,7 +20,7 @@ For an input in millivolts $$mV$$ **Power Spectral Density** (PSD) is expressed 
 The PSD is defined as follows for a finite time serie $$x_n$$ of length $$T$$ secs sampled at $$\Delta t$$ secs :
 
 $$
-PSD(f) = \frac{(\Delta t)^2}{T} \left|{\sum_{n=1}^{N}{x_ne^{-2i\pi n}}}\right|^2
+PSD(f) = \frac{\Delta t}{T} \left|{\sum_{n=1}^{N}{x_ne^{-2i\pi n}}}\right|^2
 $$
 
 When dealing with PSD it is always helpful to keep in mind Parseval theorem :
@@ -40,16 +40,16 @@ $$
 ## Matlab example :
 
 ```matlab
-%% PSD
-Nech=2501; Si=0.001; % 2501 samples at 1ms
-W=rand(Nech,1); W=W-mean(W);
-df=1/Si/Nech;
+%% Parseval verified
+ns = 2501; si = 0.001; % 2501 samples at 1ms
+w = randn(ns, 1); w = w - mean(w);
+df = 1 / si / ns;
 % Spectral density
-SD=decons(abs(fft(W)).*sqrt(2*Si/Nech));
+SD = dsp.freduce(abs(fft(w)) .* sqrt( 2 * si / ns));
 % Parseval verified
-sum( SD.^2 / Si) ./ sum(W.^2)
+sum( SD.^2 / si) ./ sum(w.^2)
 % Rms is the root of integration of the PSD
-sqrt( sum(SD.^2).*df) ./ rms(W)
+sqrt( sum(SD.^2) .* df) ./ rms(w)
 ```
 
 ## Python example :
@@ -58,15 +58,25 @@ In Python things are simpler because the `rfft` scales according to the spectral
 ```python
 import numpy as np
 from scipy import fft
+from scipy.signal import periodogram
+
 ns = 2501  # number of sample
 si = 0.001  # sampling interval (s)
-w = np.random.rand(ns, 1)
+w = np.random.rand(ns)
 w = w - np.mean(w)
 df = 1 / si / ns
 # spectral density
-sd = np.abs(fft.rfft(w))
+sd = np.abs(fft.rfft(w)) * np.sqrt(2 * si / ns)
 # Parseval verified
-np.sum(sd ** 2) / np.sum(w ** 2)
+np.sum(sd ** 2 / si) / np.sum(w ** 2)
 # rms is the root of integration of the PSD
-np.sqrt(np.sum(sd ** 2)) / np.sqrt(np.sum(w ** 2))
+np.sqrt(np.sum(sd ** 2) / si / ns) / np.sqrt(np.mean(w ** 2))
+# make sure it matches the psd from scipy
+f, sd_ = periodogram(w, 1 / si)
+np.all(np.isclose(sd ** 2, sd_))
 ```
+
+## Further Reading
+ https://www.mathworks.com/help/signal/ug/power-spectral-density-estimates-using-fft.html
+
+
