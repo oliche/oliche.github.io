@@ -38,6 +38,7 @@ $$
 $$
 
 ## Matlab example :
+[dsp.freduce dependency here](https://bitbucket.org/oliche/echo-matlab/src/master/)
 
 ```matlab
 %% Parseval verified
@@ -53,7 +54,6 @@ sqrt( sum(SD.^2) .* df) ./ rms(w)
 ```
 
 ## Python example :
-In Python things are simpler because the `rfft` scales according to the spectral density directly.
 
 ```python
 import numpy as np
@@ -77,6 +77,5 @@ np.all(np.isclose(sd ** 2, sd_))
 ```
 
 ## Further Reading
- https://www.mathworks.com/help/signal/ug/power-spectral-density-estimates-using-fft.html
-
-
+[mathworks recipe](https://www.mathworks.com/help/signal/ug/power-spectral-density-estimates-using-fft.html)
+ 
