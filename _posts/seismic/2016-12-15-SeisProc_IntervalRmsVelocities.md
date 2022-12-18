@@ -2,8 +2,8 @@
 layout: page
 breadcrumb: true
 title:  "Interval and RMS velocities"
-subheadline: "How to convert from interval to RMS velocities. And the way around."
-teaser: "Seismic Processing"
+subheadline: "Seismic Processing"
+teaser: "How to convert from interval to RMS velocities. And the way around."
 categories:
     - seismic_processing
 tags:

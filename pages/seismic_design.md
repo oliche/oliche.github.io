@@ -17,6 +17,14 @@ permalink: "/seismic_design/"
 *
 {% endcomment %}
 
+
+<ul>
+    {% for post in site.categories.seismic_design %}
+    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+
+
 <div class="row">
   <div class="medium-8 columns t30">
     

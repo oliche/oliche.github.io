@@ -1,8 +1,8 @@
 ---
 layout: page
 breadcrumb: true
-title:  "Quantitative Interpretation"
-subheadline: ""
+title: "Zoeppritz equations primer"
+subheadline: "Quantitative Interpretation"
 teaser: "AVA basics"
 categories:
     - seismic_reservoir

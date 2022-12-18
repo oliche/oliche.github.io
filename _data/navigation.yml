@@ -2,7 +2,7 @@
   url: "/"
   side: left
 
-- title: "Lab Notes"
+- title: "Seismic"
   url: "/seismic/"
   side: left
   dropdown:
@@ -10,25 +10,21 @@
     url: "/seismic_acquisition/"
   - title: "Survey Design"
     url: "/seismic_design/"
-  - title: "Mathematical Tools"
-    url: "/maths/"
   - title: "Seismic Processing"
     url: "/seismic_processing/"
   - title: "Reservoir"
     url: "/seismic_reservoir/"        
 
-- title: Codes
-  url: "/code_libraries/"
+- title: Statistics
+  url: "/statistics/"
   side: left
-  dropdown:
-#  - title: "Python"
-#    url: "/python_seismic/"
-  - title: "Matlab"
-    url: "/code_libraries/"
 
+- title: Neuroscience
+  url: "/neuroscience/"
+  side: left
 
-- title: Archive
-  url: "/blog/archive/"
+- title: Arts
+  url: "/arts/"
   side: right
 
 - title: "About"

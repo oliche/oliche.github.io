@@ -8,6 +8,9 @@ header:
     image_fullwidth: "Banner_Surf.png"
 ---
 
+## Links
+[GitHub profile](https://github.com/oliche)
+
 
 ## The Website
 The initial idea was to write down some lab notes for my personal use and stash them in an ever-accessible place so I could retrieve them when necessary. The markdown format was perfect to take notes while taking advantage of equation and image rendering.

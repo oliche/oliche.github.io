@@ -5,7 +5,7 @@ title:  "Stacking : The Square-Root Law"
 subheadline: "Maths"
 teaser: "An intuitive demonstration of why random noise stacks out proportionally to the square-root of the stacking fold."
 categories:
-    - maths
+    - stats
 tags:
     - noise
 image:

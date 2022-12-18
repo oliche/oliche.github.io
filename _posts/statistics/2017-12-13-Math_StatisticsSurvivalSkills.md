@@ -1,11 +1,11 @@
 ---
 layout: page
 breadcrumb: true
-title:  "Statistics"
+title:  "Basic Statistics"
 subheadline: "Maths"
-teaser: "A hodgepodge of basic survival skills in statistics"
+teaser: "Basic notions of statistics"
 categories:
-    - maths
+    - stats
 image:
    thumb: "thumb_maths.png"
 header:

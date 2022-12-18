@@ -4,10 +4,9 @@ breadcrumb: true
 title:  "Parabola Interpolation"
 subheadline: "Maths"
 categories:
-    - maths
+    - stats
 tags:
-    - interpolation
-    - maths
+    - sigproc
 image:
    thumb: "thumb_maths.png"
 header:

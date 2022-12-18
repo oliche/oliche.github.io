@@ -18,12 +18,15 @@ permalink: "/seismic_acquisition/"
 *
 {% endcomment %}
 
+<ul>
+    {% for post in site.categories.seismic_acquisition %}
+     <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{post.title }}</a></li>
+    {% endfor %}
+</ul>
 
 <div class="row">
   <div class="medium-8 columns t30">
     
-
-
 
     {% for post in site.categories.seismic_acquisition %}
   <div class="row">

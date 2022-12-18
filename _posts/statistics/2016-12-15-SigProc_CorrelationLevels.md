@@ -5,7 +5,7 @@ title:  "Correlation Amplitude Levels"
 subheadline: "Signal Processing"
 teaser: "What kind of normalisation can be found on correlated vibroseis data"
 categories:
-    - seismic_processing
+    - sigproc
 tags:
     - vibroseis
     - signal processing

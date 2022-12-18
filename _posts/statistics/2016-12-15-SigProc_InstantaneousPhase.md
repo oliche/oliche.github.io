@@ -4,7 +4,7 @@ breadcrumb: true
 title:  "Instantaneous Phase and Frequency "
 subheadline: "Signal Processing"
 categories:
-    - seismic_processing
+    - sigproc
 tags:
     - phase
     - signal processing

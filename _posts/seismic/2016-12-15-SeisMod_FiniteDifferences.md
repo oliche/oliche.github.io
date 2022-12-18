@@ -14,6 +14,18 @@ header:
     image_fullwidth: "banner_seismic_processing.jpg"
 ---
 
+## Example of elastic wave modeling using Matlab on the Marmousi model
+
+
+Here is a simple implementation of elastic modeling using Virieux's method cited below.
+
+<div class="flex-video widescreen vimeo" style="display: block;">
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/U0hT9vO_oHA" frameborder="0" allowfullscreen></iframe>
+</div>
+
+Both are mainly for educational purposes or small-scale applications: they are efficient considering this is Matlab, but will not allow scaling on huge datasets where we would rather work outside of the RAM.
+
+
 ## Acoustic Wave equation
 
 The acoustic wave equation for dimensions $$x,y,z$$ with a medium velocity $$c$$ :

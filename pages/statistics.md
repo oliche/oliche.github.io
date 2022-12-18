@@ -1,38 +1,30 @@
 ---
 layout: page
 show_meta: false
-title: "Seismic Lab Notes"
+title: "Statistics and Signal Processing"
 subheadline: "Cheat sheets"
 header:
     image_fullwidth: "banner_seismic_processing.jpg"
-permalink: "/seismic/"
+permalink: "/statistics/"
 ---
 
-## Acquisition
+## Linear Algebra and Calculus
 <ul>
-    {% for post in site.categories.seismic_acquisition %}
+    {% for post in site.categories.maths %}
     <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
 
-## Survey Design
+## Signal Processing
 <ul>
-    {% for post in site.categories.seismic_design %}
+    {% for post in site.categories.sigproc %}
     <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
 
-
-## Processing
+## Statistics
 <ul>
-    {% for post in site.categories.seismic_processing %}
-    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
-
-## Reservoir
-<ul>
-    {% for post in site.categories.seismic_reservoir %}
+    {% for post in site.categories.stats %}
     <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>

@@ -5,7 +5,7 @@ title:  "The Least-Squares Criterion in Inverse Problems"
 subheadline: "Maths"
 teaser: "How to include uncertainties in the model and data spaces."
 categories:
-    - maths
+    - stats
 tags:
     - inversion
     - Bayes

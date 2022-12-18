@@ -5,10 +5,9 @@ title:  "PSD "
 subheadline: "Signal Processing"
 teaser: "Spectral Density, Parseval theorem and Root Mean Square,... in Proper Units..."
 categories:
-    - seismic_processing
+    - sigproc
 tags:
     - phase
-    - signal processing
 image:
    thumb: "thumb_processing.jpg"
 header:
