@@ -15,7 +15,7 @@ widget1:
 widget2:
   title: "Statistics and Signal Processing"
   image: home_mathematics.jpg
-  url: '/code_libraries/'
+  url: '/statistics/'
   text: ''
 widget3:
   title: "Neuroscience"

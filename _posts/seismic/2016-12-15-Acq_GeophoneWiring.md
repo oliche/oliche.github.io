@@ -12,7 +12,7 @@ tags:
     - receiver 
     - ambient noise
 image:
-   thumb: "thumb_acquisition.png"
+   thumb: "thumb_nodding_donkey.png"
 header:
     image_fullwidth: "seismic_acquisition_header.png"
 ---

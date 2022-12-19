@@ -8,9 +8,9 @@ header:
 permalink: "/statistics/"
 ---
 
-## Linear Algebra and Calculus
+## Statistics
 <ul>
-    {% for post in site.categories.maths %}
+    {% for post in site.categories.stats %}
     <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
@@ -22,9 +22,9 @@ permalink: "/statistics/"
     {% endfor %}
 </ul>
 
-## Statistics
+## Linear Algebra and Calculus
 <ul>
-    {% for post in site.categories.stats %}
+    {% for post in site.categories.maths %}
     <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>

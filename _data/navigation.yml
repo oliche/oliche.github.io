@@ -23,8 +23,8 @@
   url: "/neuroscience/"
   side: left
 
-- title: Arts
-  url: "/arts/"
+- title: Culture
+  url: "/culture/"
   side: right
 
 - title: "About"
