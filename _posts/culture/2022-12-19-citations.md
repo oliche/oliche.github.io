@@ -1,8 +1,8 @@
 ---
 layout: page
 breadcrumb: true
-title:  "Chosen Words"
-subheadline:  "Seismic Acquisition"
+title:  "Reading Clippings"
+subheadline:  "All quotes"
 teaser: "A collection of quotes from readings over the years"
 categories:
     - culture
@@ -233,7 +233,7 @@ I seem to have been only like a boy playing on the seashore, and diverting mysel
 **Isaac Newton**
 
 [...] in Python we write programs that do things with stuff* [...]
-* Pardon our formality, we're computer scientists
+Pardon our formality, we're computer scientists
 **Mark Lutz and David Asher - Learning Python**
 
 Kids today. So spoiled by these fast computers and fancy dynamic languages. Write first, ship second, debug third (if ever). In my day we had discipline. Discipline I say! We had to write programs by **hand**, on **paper**, and feed them on **puchcards**. And we **liked** it !
@@ -529,7 +529,7 @@ MUSICIEN.- L'amour c'est une question de nez, ça te rentre par la narine, ça r
 Regardant avec émotion en direction des lointaines forêts de sa terre natale, il dit "Shouwe t-maten ya" ("la nostalgie est en train de me tuer"). [...] La liberté est précieuse aux hommes blancs. Pour les vagabonds indomptés de la nature, elle est une absolue nécessité.
 **Aux confins de la Terre. Une Vie en Terre de Feu. Lucas Bridges**
 
-Cette foi trop grande dans le raisonnement, qui conduit un physiologiste à une fausse simplification des choses, tient d'une part à l'ignorance de la science dont il parle, et d'autre part à l'absenc su sentiment de complexité des phénomènes naturels.
+Cette foi trop grande dans le raisonnement, qui conduit un physiologiste à une fausse simplification des choses, tient d'une part à l'ignorance de la science dont il parle, et d'autre part à l'absence du sentiment de complexité des phénomènes naturels.
 **Introduction à la Médecine expérimentale Claude Bernard 1865** 
 
 Je critique ce qu'il est aisé de critiquer: l'anthropologie de tradition américaine ou anglaise ne cite que des travaux publiés dans leur langue. Or il est impossible de réféchir sur les grands courants de la comédie humaine sans se référer à Goethe, Kant, Hume, Rousseau, Balzac, Zola, Melville, Dostoïevski, Kierkegaard...
@@ -801,7 +801,7 @@ He didn't think himself a Jewish Cannibal-American, but the Judaic concept of an
 **Shalom Auslander - Mother for Dinner**
 
 What about F-150s? The Elders asked. For they are not cars, but trucks.
-Ford trucks too, sais the Elder Elders, are forbidden.
+Ford trucks too, said the Elder Elders, are forbidden.
 What about Lincolns? the Elders asked.
 Lincolns are permitted, said the Elder Elders.
 But Lincoln is owned by Ford, said the Elders.
