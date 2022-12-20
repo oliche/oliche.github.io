@@ -12,6 +12,8 @@ image:
 header:
     image_fullwidth: "seismic_acquisition_header.png"
 ---
+
+
 Frère, il y a dans presque toutes les choses terrestres je ne sais quelle lie ou quel déboire qui vous en dégoûtent, et les rares objets qui par hasard ont la perfection en partage sont mortellement tristes.
 **Marguerite Yourcenar - L'Oeuvre au Noir**
 

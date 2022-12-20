@@ -8,13 +8,13 @@
 #                                                 /____/
 #
 # Title of your website
-title: 'Olives corner'
+title: "Olivier's corner"
 
 # The slogan describes your website and is used on homepage in <title> and other important places
 slogan: 'Recipes and Concepts in Scientific Computing'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: 'Bits and Pieces of Seismic'
+description: 'Cheatsheet'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
 credits: '<p>Created  with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
