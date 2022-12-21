@@ -10,7 +10,7 @@ tags:
 image:
    thumb: "thumb_tele.png"
 header:
-    image_fullwidth: "seismic_acquisition_header.png"
+    image_fullwidth: "Banner_Archive.png"
 ---
 
 
