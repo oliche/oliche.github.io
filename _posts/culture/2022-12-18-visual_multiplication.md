@@ -28,7 +28,22 @@ And when we sweep a range of multipliers and put all displays together in an ami
 [This Youtube video](https://www.youtube.com/watch?v=-X49VQgi86E) explains in much greater detail and fun the idea. 
 
 
-The implementation of this in Matlab is a great example of how to deal with a higher level language for fast graphics. The rosace code itself fits in 2 lines using complex numbers. It is then possible to display hundreds of lines in real time using two Matlab optimization tricks:
+The implementation of this in Matlab is a great example of how to deal with a higher level language for fast graphics. The rosace code itself fits in 2 lines using complex numbers.
+
+```matlab
+x = 78;
+y = 854;
+% Table of x modulo y, the trick is to represent it using the circle
+% equation for complex numbers
+in = [1:(y-1)].';
+cir = @(x) exp(-1i .* x .* 2 .* pi + 1i .* pi / 2);
+% Update the display, this will be way to slow if each line is an object
+% so this uses a single vector
+toplot = ([cir(in / y) cir(mod(in * x , y) ./ y )  in.*NaN].');
+toplot = toplot(:);
+```
+
+It is then possible to display hundreds of lines in real time using two Matlab optimization tricks:
 -   create objects upfront and only update their properties at each iteration
 -   create a single high level Matlab line object by putting all segments in a long vector with a NaN between each to break the line.
 
