@@ -10,7 +10,7 @@ tags:
 image:
    thumb: "thumb_tele.png"
 header:
-    image_fullwidth: "seismic_acquisition_header.png"
+    image_fullwidth: "Banner_Archive.png"
 ---
 He'll go back to his usual grousing about how his taxes are too high and the federal government needs to be scaled back to a size where he can personally stomp it to death with steel-toed boots.
 **Neil Stephenson - Seveneves**

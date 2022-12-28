@@ -10,7 +10,7 @@ tags:
 image:
    thumb: "thumb_tele.png"
 header:
-    image_fullwidth: "seismic_acquisition_header.png"
+    image_fullwidth: "Banner_Archive.png"
 ---
 
 Speaking to myself already might not have been a good sign, but as an old farmer in Somalia once remarked to me, talking to oneself means nothing. The trouble starts only when one begins to reply.
