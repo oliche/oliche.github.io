@@ -34,7 +34,7 @@ Lean back under a tree, put your arms behind your head, wonder at the pass we've
 Sometimes you want to order from a standard menu, quickly and wordlessly. But sometimes it's nice to order hash browns and eggs the way you like them, and hear a waitress say, "I got you, baby". It feels like home.
 **The Economist, 2022, on Waffle House**
 
-Comprendi que el trabajo del poeta no estaba en la poesía; estaba en la inveción de razones para que la poesía fuera admirable.
+Comprendi que el trabajo del poeta no estaba en la poesía; estaba en la invención de razones para que la poesía fuera admirable.
 **Jorge Luis Borges - El Aleph**
 
 Quand vous n'en pouvez plus, faites comme moi: pensez à des troupeaux d'éléphants en liberté en train de courir vers l'Afrique, des centaines et des centaines de bêtes magnifiques auxquelles rien ne résiste, pas même un mur,pas même un barbelé, qui foncent à travers les espaces ouverts et qui cassent tout sur leur passage, qui renversent tout et tant qu'ils sont vivants, rien ne peut les arrêter- la liberté quoi!
