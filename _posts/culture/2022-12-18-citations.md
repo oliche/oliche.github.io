@@ -13,6 +13,31 @@ header:
     image_fullwidth: "Banner_Archive.png"
 ---
 
+Amy thought they were talking about love. Cheating wasn't easy, thought Amy. It was hard; so very, very hard. It wasn't some failure of character. It just was. It wasn't even cheating. Because if it was being true to yourself, then wasn't the real cheating the charade you played out with your spouse ?
+**Richard Flanagan - The Narrow Road to the Deep North**
+
+
+The cenote was understood by the local indigenous people to be an access point to the Mayan underworld, to Xibalba. In Mayan, Xibalba means "place of fear".
+**Robert McFarlane - Underland: A Deep Time Journey**
+
+They stick in the throat in two ways: they are difficult to utter and hard to swallow. Only one of these recent coinages resonates with me: 'species loneliness', for the intense solitude that we are fashioning for ourselves as we strip the Earth of the other life with which we share it. 
+**Robert McFarlane - Underland: A Deep Time Journey**
+
+There in the grove with Merlin, I recall Kimmerer, Hardy and Nelson, and feel a sudden, angry impatience with modern science for presenting as revelation what indigenous societies take to be self-evident.
+**Robert McFarlane - Underland: A Deep Time Journey**
+
+Philip Larkin famously proposed that what will survive us is love. Wrong. What will survive us is plastic, swine bones and lead-207, the stable isotope at the end of the uranium-235 decay chain.
+**Robert McFarlane - Underland: A Deep Time Journey**
+
+The halite will flow around it as the tunnel naturally closes up. It is an astonishing image: the translucent halite melting around this cybernetic dragon - the fossilization of this machine-relic in its burial shroud of salt.
+**Robert McFarlane - Underland: A Deep Time Journey**
+
+Where the river Elbe flows through the Czech Republic, summer water levels have recently dropped so far that 'hunger stones' have been uncovered - carved boulders used for centuries to commemorate droughts and warn of their consequences. One of the hunger stones bears the inscription 'iWenn du mich siehst, dann weine': 'If you see me, weep'.
+**Robert McFarlane - Underland: A Deep Time Journey**
+
+Ludwig Boltzmann, who spent much of his life studying statistical mechanics, died in 1906, by his own hand. Paul Ehrenfest, carrying on the work, died similarly in 1933. Now it is our turn to study statistical mechanics. Perhaps it will be wise to approach the subject cautiously.
+**David Goldstein - Thermodynamics and Statistical Mechanics**
+
 Speaking to myself already might not have been a good sign, but as an old farmer in Somalia once remarked to me, talking to oneself means nothing. The trouble starts only when one begins to reply.
 **Felice Benuzzi - No Picnic on Mount Kenya**
 
