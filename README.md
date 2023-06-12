@@ -9,7 +9,6 @@ The site is accessible at: [https://oliche.github.io](https://oliche.github.io)
 -	Book citations
 -	Math puzzles
 -	Travel photographs
--	Matlab tables de multiplication
 
 ## Maintenance:
 -	banner culture, thumbnail quotations

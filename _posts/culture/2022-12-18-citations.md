@@ -13,9 +13,10 @@ header:
     image_fullwidth: "Banner_Archive.png"
 ---
 
-Amy thought they were talking about love. Cheating wasn't easy, thought Amy. It was hard; so very, very hard. It wasn't some failure of character. It just was. It wasn't even cheating. Because if it was being true to yourself, then wasn't the real cheating the charade you played out with your spouse ?
-**Richard Flanagan - The Narrow Road to the Deep North**
-
+Ice as a memory. It remembers in details and it remembers for a million years or more.
+It remembers forest fires and rising seas. It remembers the chemical composition of the air around the start of the last Ice Age, 110,000 years ago. It remembers the temperature of the clouds at a moment of snowfall early in the Holocene. It remembers the explosions of the Tambora in 1815, Laki 1783, Mont St Helens in 1482 and Kumar in 1454. It remembers the smelting boom of the Romans, and it remembers the lethal quantities of lead that were present in petrol in the decades after the Second World War. It remembers and it tells - tells us that we live on a fickle planet, capable of swift shifts and rapid reversals.
+Ice has a memory, and the colour of this memory is blue.
+**Robert McFarlane, Underland, a Deep Time Journey**
 
 The cenote was understood by the local indigenous people to be an access point to the Mayan underworld, to Xibalba. In Mayan, Xibalba means "place of fear".
 **Robert McFarlane - Underland: A Deep Time Journey**
@@ -38,11 +39,20 @@ Where the river Elbe flows through the Czech Republic, summer water levels have 
 Ludwig Boltzmann, who spent much of his life studying statistical mechanics, died in 1906, by his own hand. Paul Ehrenfest, carrying on the work, died similarly in 1933. Now it is our turn to study statistical mechanics. Perhaps it will be wise to approach the subject cautiously.
 **David Goldstein - Thermodynamics and Statistical Mechanics**
 
+The paradise of Bagamoyo, however, came with a sad legacy. It was the terminus of the slave caravans and the last African soil that slaves would ever tread. Originally, the Arabs had named the town Bwagamaoyo - "throw off melancholy" - but the slaves changed it. Bagamoyo, in Swahili, means "crush your heart".
+**Martin Dugard - Into Africa: the Epic Adventures of Stanley and Livingstone**
+
+Then Livinstone's tone changed abrubtly. "I hope you are playing with your children instead of  being bothered with idiots. In looking back," he wrote, "I have but one regret and that is that I did not feel it my duty to play with my children as much as to teach the Balkwains. I worked very hard at that and was tired out at night. Now I have none to play with."
+**Martin Dugard - Into Africa: the Epic Adventures of Stanley and Livingstone**
+
 Speaking to myself already might not have been a good sign, but as an old farmer in Somalia once remarked to me, talking to oneself means nothing. The trouble starts only when one begins to reply.
 **Felice Benuzzi - No Picnic on Mount Kenya**
 
 Solemnly we sipped the first hot drink of our escape, the "first coffee in freedom" for two years. Never in my life had I drunk better coffee.
 **Felice Benuzzi - No Picnic on Mount Kenya**
+
+Amy thought they were talking about love. Cheating wasn't easy, thought Amy. It was hard; so very, very hard. It wasn't some failure of character. It just was. It wasn't even cheating. Because if it was being true to yourself, then wasn't the real cheating the charade you played out with your spouse ?
+**Richard Flanagan - The Narrow Road to the Deep North**
 
 [...] toute cette besogne inhumaine, immorale que nous devons faire parce que nous sommes des soldats et que c'est la guerre. Notre revanche aujourd'hui, c'est de saluer un ennemi brave qui vient de mourir, de proclamer que Nowotny nous appartient, qu'il fait partie de notre sphère où nous n'admettons ni les idéologies, ni les haines, ni les frontières. Cette camaraderie là n'a rien à voir avec le patriotisme, la démocratie, le nazisme ou l'humanité. Tous ces garçons, ce soir, le comprennent d'instinct. Et s'il en est qui haussent les épaules, c'est qu'ils ne peuvent pas savoir - ils ne sont pas pilotes de chasse.
 [...]
