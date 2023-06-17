@@ -279,6 +279,9 @@ And frustration be the same
 Mindfulness meditation has a philosophical point: something more than therapy for the stress of daily life, something less than metaphysical revelation.
 **Kieran Setiya - Midlife Crisis**
 
+So tell yourself this: atlthough I may regret regret, desire that no desire go unfullfilled, I canno't in the end prefer to have desires that could be fully met. The sense of loss is real, but it is something to concede, not wish away. Embrace your losses as fair payment for the surplus of being alive.
+**Kieran Setiya - Midlife Crisis**
+
 Gilgamesh wept over Enkidu his friend
 bitterly he wept through the wilderness.
 "Must I die too ?", must I be as lifeless
