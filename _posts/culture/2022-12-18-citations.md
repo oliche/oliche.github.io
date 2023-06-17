@@ -13,7 +13,16 @@ header:
     image_fullwidth: "Banner_Archive.png"
 ---
 
-Ice as a memory. It remembers in details and it remembers for a million years or more.
+
+The deck was dirty, slippery and wet; the smells abominable; the whole sight disgusting; and when I remarked the slovenly attire of the midshipmen, dressed in shabby round jacket, glazed hats, no gloves, and some without shoes, I forgot all the glory... and, for nearly the first time in my life, and I wish I could say it was the last, took the handkerchief from my pocket, covered my face, and cried like the child I was.
+**David Grann, The Wager, A Tale of Shripwreck, Mutiny and Murder**
+
+Seamen refer to the latitudes in which they blow with names that capture the increasing intensity: the Roaring Forties, the Furious Fifties, and the Screaming Sixties.
+Below forty degrees of latitude, there is no law. Below fifty degrees, there is no God.
+**David Grann, The Wager, A Tale of Shripwreck, Mutiny and Murder**
+
+
+Ice has a memory. It remembers in details and it remembers for a million years or more.
 It remembers forest fires and rising seas. It remembers the chemical composition of the air around the start of the last Ice Age, 110,000 years ago. It remembers the temperature of the clouds at a moment of snowfall early in the Holocene. It remembers the explosions of the Tambora in 1815, Laki 1783, Mont St Helens in 1482 and Kumar in 1454. It remembers the smelting boom of the Romans, and it remembers the lethal quantities of lead that were present in petrol in the decades after the Second World War. It remembers and it tells - tells us that we live on a fickle planet, capable of swift shifts and rapid reversals.
 Ice has a memory, and the colour of this memory is blue.
 **Robert McFarlane, Underland, a Deep Time Journey**
