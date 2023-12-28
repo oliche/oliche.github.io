@@ -13,14 +13,46 @@ header:
     image_fullwidth: "Banner_Archive.png"
 ---
 
+A journalism that starts out assuming it knows the answers can be far less valuable to the reader than a journalism that starts out with a humbling awareness that it knows nothing.
+[...]
+Our role, we knew, was to help readers understand such threas, and this required empathetic - not sympathetic - reporting. This is not an easy distinction but good reporters make it: they learn to understand and communicate the sources and nature of a toxic ideology without justifying it, much less advocating it.
+[...]
+You did not have to pretend things were simpler than they actually were. You did not have to go along with anything that any tribe said. You did not have to pretend that good guys, much as you might have respected them, were right about everything, or that the bad guys, much as you have disdained them, never had a point. You did not, in other words, ever have to lie.
+This fundamental honesty was vital for readers, because it equipped them to make better, more informed judgments about the world. Sometimes it might shock or upset them by failing to conform to their picture of reality.  But it also granted them the respect of acknowledging that they were able to work things out for themselves.
+[...]
+**James Bennet, When the NYT Lost Its Way**
 
-The deck was dirty, slippery and wet; the smells abominable; the whole sight disgusting; and when I remarked the slovenly attire of the midshipmen, dressed in shabby round jacket, glazed hats, no gloves, and some without shoes, I forgot all the glory... and, for nearly the first time in my life, and I wish I could say it was the last, took the handkerchief from my pocket, covered my face, and cried like the child I was.
+The kid rose and looked about at this desolate scene and then he saw alone and upright in a small niche in the rocks an old woman kneeling in a faded rebozo with her eyes cast down.
+He made his way among the corpses and stood before her. She was very old and her face was gray and leathery and sand had collected in the folds of her clothing. She did not look up. The shawl that covered her head was much faded of its color yet it bore like a patent woven into the fabric the figures of stars and quartermoons and other insignia of a provenance unknown to him. He spoke to her in a low voice. He told her that he was an American and that he was a long way from the country of his birth and that he had no family and that he had traveled much and seen many things and had been at war and endured hardships. He told her that he would convey her to a safe place, some party of her countrypeople who would welcome her and that she should join them for he could not leave her in this place or she would surely die.
+He knelt on one knee, resting the rifle before him like a staff. Abuelita, he said. No puedes escúcharme?
+He reached into the little cove and touched her arm. She moved slightly, her whole body, light and rigid. She weighed nothing. She was just a dried shell and she had been dead in that place for years.
+**Cormack MacCarthy, Blood Meridian**
+
+
+Dans le salon vaguement éclairé par les lueurs du feu où Mrs Woolf avait bien voulu m'accueuillur, je regardais er profiler sur la pénombre ce pâle visage de jaune Parque à peine vieillie, mais délicatement marquée des signes de la pensée et de la lassitude, et je me disais que le reproche d'intellectualisme est souvent addressé aux natures les plus fines, les plus ardemment vivantes, obigées par leur fragilité ou par leur excès de forces à recourir sans cessse aux dures disciplines de l'esprit. Pour de telles êtres, l'intelligence n'est qu'une vitre parfaitement transparente derrière laquelle ils regardent attentivement passer la vie.
+**Marguerite Yourcenar, préface aux Vagues de Virginia Woolf**
+
+Le temps passe, je sais. Nous vieillissons. Mais être assis près de vous, seul avec vous, au cœur de Londres, dans cette chambre éclairée par le reflet du feu, c’est le comble du bonheur. Tous les trésors du monde ne forment qu’un seul butin, et tous ses sommets ont été pour nous dépouillés de leurs fleurs. Le reflet du feu met un fil d’or dans l’épaisseur des rideaux. Le fruit qu’il touche pèse de tout son poids. Il fait briller le bout de vos chaussures; il met autour de votre tête une rouge auréole. Je sais que ce reflet provient du feu, et non de votre visage: ces livres étagés le long du mur sont des livres, ce rideau est un rideau, et ce fauteuil n’est qu’un fauteuil. Mais quand vous êtes là, tout se transforme. Les tasses et les soucoupes ont changé d’aspect quand vous êtes entré ce matin. J’ai posé mon journal sur la table, et je me suis dit que certes nos médiocres vies sans beauté ne se recouvrent de splendeur, ne s’enrichissent d’un sens que sous l’éclairage de l’amour.
+**Virginia Woolf, Les Vagues**
+
+Je vois les abîmes. Je sais de quelle façon l'amour flambe et se tord dans la flamme, et comment la jalousie lance ça et là ses verdâtres éclairs; et par quelles voies tortueuses l'amour contrarie l'amour; et comment l'amour noue les fils; et avec quelle brutalité l'amour les arrache ensuite. J'ai été noué. J'ai été arraché.
+**Virginia Woolf, Les Vagues**
+
+Comme il était doué d'un sens profond de sa place dans l'univers, c'était en vérité un maître de l'art de vivre, et si grand dans cet art qu'il paraissait avoir derrière lui l'expérience d'un long passé. Il semblait enveloppé de calme, et presque d'indifférence, en tout cas d'indifférence à son propre avenir.
+**Virginia Woolf, Les Vagues**
+
+_I cannot help feeling, Phaedrus, [says Socrates] that writing is unfortunately like painting; for the creations of the painter have the attitude of life, and yet if you ask them a question they preserve a solemn silence... You would imagine that they had intelligence, but if you want to know anything and put a question to one of them, the speakers always gives one unvarying answer._
+**Plato, reported by James Gleick, The Information: A History, a Theory, a Flood**
+
+_Reversed for me our grandire's fate of yore, He had no rest at sea, nor I on shore._ Byron
+**David Grann, The Wager, A Tale of Shripwreck, Mutiny and Murder**
+
+_The deck was dirty, slippery and wet; the smells abominable; the whole sight disgusting; and when I remarked the slovenly attire of the midshipmen, dressed in shabby round jacket, glazed hats, no gloves, and some without shoes, I forgot all the glory... and, for nearly the first time in my life, and I wish I could say it was the last, took the handkerchief from my pocket, covered my face, and cried like the child I was._ John Byron
 **David Grann, The Wager, A Tale of Shripwreck, Mutiny and Murder**
 
 Seamen refer to the latitudes in which they blow with names that capture the increasing intensity: the Roaring Forties, the Furious Fifties, and the Screaming Sixties.
 Below forty degrees of latitude, there is no law. Below fifty degrees, there is no God.
 **David Grann, The Wager, A Tale of Shripwreck, Mutiny and Murder**
-
 
 Ice has a memory. It remembers in details and it remembers for a million years or more.
 It remembers forest fires and rising seas. It remembers the chemical composition of the air around the start of the last Ice Age, 110,000 years ago. It remembers the temperature of the clouds at a moment of snowfall early in the Holocene. It remembers the explosions of the Tambora in 1815, Laki 1783, Mont St Helens in 1482 and Kumar in 1454. It remembers the smelting boom of the Romans, and it remembers the lethal quantities of lead that were present in petrol in the decades after the Second World War. It remembers and it tells - tells us that we live on a fickle planet, capable of swift shifts and rapid reversals.

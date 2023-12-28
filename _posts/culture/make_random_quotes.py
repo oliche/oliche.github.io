@@ -2,12 +2,12 @@ from pathlib import Path
 import random
 
 # gets the header from the current file
-with open(Path().absolute().joinpath("2022-12-20-citations_sample.md")) as fp:
+with open(Path().absolute().joinpath("2022-12-19-citations_sample.md")) as fp:
 	quotes = fp.read()
-quotes =  quotes.split('---')
+quotes = quotes.split('---')
 header = quotes[1]
 
-with open(Path().absolute().joinpath("2022-12-19-citations.md")) as fp:
+with open(Path().absolute().joinpath("2022-12-18-citations.md")) as fp:
 	quotes = fp.read()
 
 

@@ -1,0 +1,12 @@
+{
+  "name": "oliche.github.io",
+  "version": "1.0.0",
+  "description": "This is my personal website. Built on Jekyll using freely different. The site is accessible at: [https://oliche.github.io](https://oliche.github.io)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
