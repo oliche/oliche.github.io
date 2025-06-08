@@ -13,9 +13,108 @@ header:
     image_fullwidth: "Banner_Archive.png"
 ---
 
+
+L’innocence n’a que faire d’être altesse. Elle est aussi auguste déguenillée que fleurdelysée. 
+**Victor Hugo, Les Misérables**
+
+Rêver la prolongation indéfinie des choses défuntes et le gouvernement des hommes par embaumement, restaurer les dogmes en mauvais état, redorer les châsses, recrépir les cloîtres, rebénir les reliquaires, remeubler les superstitions, ravitailler les fanatismes, remmancher les goupillons et les sabres, reconstituer le monachisme et le militarisme, croire au salut de la société par la multiplication des parasites, imposer le passé au présent, cela semble étrange. Il y a cependant des théoriciens pour ces théories-là. Ces théoriciens, gens d’esprit d’ailleurs, ont un procédé bien simple, ils appliquent sur le passé un enduit qu’ils appellent ordre social, droit divin, morale, famille, respect des aïeux, autorité antique, tradition sainte, légitimité, religion ; et ils vont criant : — Voyez ! prenez ceci, honnêtes gens. — Cette logique était connue des anciens. Les aruspices la pratiquaient. Ils frottaient de craie une génisse noire, et disaient : Elle est blanche. Bos cretatus.
+**Victor Hugo, Les Misérables**
+
+Combattons.
+Combattons, mais distinguons. Le propre de la vérité, c’est de n’être jamais excessive. Quel besoin a-t-elle d’exagérer ? Il y a ce qu’il faut détruire, et il y a ce qu’il faut simplement éclairer et regarder. L’examen bienveillant et grave, quelle force ! N’apportons point la flamme là où la lumière suffit. 
+**Victor Hugo, Les Misérables**
+
+His eyes on the road, Limped asked. "Do you have a life philosophy ?".
+"Life philosophy?" The phrase felt like a contradiction in terms. 
+"Words you live by."
+She didn't live by words. She lived by life. But the question was sweet, and she did her best.
+She fed him that classic bit of Quebecoise wisdom: "__Attache ta tuque et lâche pas la patate.__" 
+**Richard Powers, Playground.**
+
+Je crois qu'il est plus facile d'établir un gouvernment absolu et despotique chez un peuple où les conditions sont égales que chez un autre, et je pense que, si un pareil gouvernement était une fois établi chez un semblable peuple, non seulement il y opprimerait les hommes, mais qu'à la longue il ravirati à chacun d'eux plusieurs des principaux attributs de l'humanité.
+**Alexis de Tocqueville, De la Démocratie en Amérique II**
+
+Il y a, de nos jours, beaucoup de gens qui s'accomodent très aisément de cette espèce de compromis entre le despotisme administratif et la souveraineté du peuple, et qui pensent avoir assez garanti la liberté des individus, quand c'est au pouvoir national qu'ils la livrent. Cela ne me suffit point. _La nature du maître m'importe bien moins que l'obéissance_.
+Je ne nierai pas cependant qu'une constitution semblable ne soit infiniment préférable à celle qui, après avoir concentré tous les pouvoirs, les déposerait dans les mains d'un homme ou d'un corps irresponsable. De toutes les différentes formes que le despotisme démocratique pourrait prendre,celle-ci serait assurément la pire.
+**Alexis de Tocqueville, De la Démocratie en Amérique II**
+
+Chez les peuples aristocratiques, l'argent ne me méne qu'à quelques points seulement de la vaste ccirconférence des désirs; dans les démocraties, il semble qu'il conduise à tous.
+On retrouve doncd d'ordinaire l'amour des richesses, comme principal ou accessoire, au fond des actions des Américains; ce que donne à toutes leurs passions un aire de famille, et ne tarde point àa en rendre fatiguant le tableau. 
+**Alexis de Tocqueville, De la Démocratie en Amérique II**
+
+J'ai fait voir comment la démocratie détruisait ou modifiait les diverses inégalités que la société fait naître; mais est-ce là tout, et ne parvient-elle pas enfin à agir sur cette grande inégalité de l'homme et de la femme, qui a sembé, jusqu'à nos jours, avoir ses fondements éternels dans la nature ?
+Je pense que le mouvement social qui rapproche du même niveau le fils et le père, le serviteur et le maître, et, en général, l'inférieur et le supérieur, élève la femme et doit de plus en plus en faire l'égale de l'homme.
+**Alexis de Tocqueville, De la Démocratie en Amérique II**
+
+
+On aurait tort de croire que Mme de Sévigné, qui traçait ces lignes, fût une créature égoîste et barbare: elle aimait avev passion ses enfants et se montrait fort sensible aux chagrins de ses amis; et l'on aperçoit même, en la lisant, qu'elle traitait avec bonté et indulgence ses vassaux et ses servieurs. Mais Mme de Sévigné ne concevait pas clairement ce que c'était que de souffrir quand on n'était pas gentilhomme. 
+De nos jours, l'homme le plus dur, écrivant à la personne la plus insensible, n'oserait se livrer de sang-froid au badinage cruel que je viens de reproduire, et, lors même que ses moeurs particulières lui permettraient de le faire, les moeurs générales de la nation le lui défendraient.
+D'où vient cela ? Avons-nous plus de sensibilité que nos pères ? Je ne sais; mais, à coup sûr, notre sensibilité se porte sur plus d'objets.
+**Alexis de Tocqueville, De la Démocratie en Amérique II**
+
+Mais l'aristocratie  manufacturière de nos jours, après avoir appauvri et abruti les hommes dont elle sert, les livre en temps de crise à la charité publique pour les nourrir. [...]
+Toutefois, c'est de ce côté que les amis de la démocratie doivent sans cesse tourner avec inquiétude leurs regards; car, si jamais l'inégalité permanente des conditions et l'aristocratie pénètrent dans le monde, on peut prédire qu'elles y entreront par cette porte.
+**Alexis de Tocqueville, De la Démocratie en Amérique II**
+
+J’ose prédire que ces innovations auront tôt ou tard des résultats funestes, et qu’on s’apercevra un jour qu’en diminuant ainsi l’indépendance des magistrats, on n’a pas seulement attaqué le pouvoir judiciaire, mais la république démocratique elle-même.
+**Alexis de Tocqueville, De la Démocratie en Amérique**
+
+Que demandez-vous de la société et de son gouvernement ? Il faut s’entendre.
+Voulez-vous donner à l’esprit humain une certaine hauteur, une façon généreuse d’envisager les choses de ce monde ? Voulez-vous inspirer aux hommes une sorte de mépris des biens matériels ? Désirez-vous faire naître ou entretenir des convictions profondes et préparer de grands dévouements ?
+S’agit-il pour vous de polir les mœurs, d’élever les manières, de faire briller les arts ? Voulez-vous de la poésie, du bruit, de la gloire ?
+Prétendez-vous organiser un peuple de manière à agir fortement sur tous les autres ? Le destinez-vous à tenter les grandes entreprises, et, quel que soit le résultat de ses efforts, à laisser une trace immense dans l’histoire ?
+Si tel est, suivant vous, l’objet principal que doivent se proposer les hommes en société, ne prenez pas le gouvernement de la démocratie ; il ne vous conduirait pas sûrement au but.
+Mais s’il vous semble utile de détourner l’activité intellectuelle et morale de l’homme sur les nécessités de la vie matérielle, et de l’employer à produire le bien-être ; si la raison vous paraît plus profitable aux hommes que le génie ; si votre objet n’est point de créer des vertus héroïques, mais des habitudes paisibles ; si vous aimez mieux voir des vices que des crimes, et préférez trouver moins de grandes actions, à la condition de rencontrer moins de forfaits ; si, au lieu d’agir dans le sein d’une société brillante, il vous suffit de vivre au milieu d’une société prospère ; si, enfin, l’objet principal d’un gouvernement n’est point, suivant vous, de donner au corps entier de la nation le plus de force ou le plus de gloire possible, mais de procurer à chacun des individus qui le composent le plus de bien-être et de lui éviter le plus de misère ; alors égalisez les conditions et constituez le gouvernement de la démocratie.
+**Alexis de Tocqueville, De la Démocratie en Amérique**
+
+C’est avec l’idée des droits que les hommes ont défini ce qu’étaient la licence et la tyrannie. Éclairé par elle, chacun a pu se montrer indépendant sans arrogance et soumis sans bassesse. L’homme qui obéit à la violence se plie et s’abaisse ; mais quand il se soumet au droit de commander qu’il reconnaît à son semblable, il s’élève en quelque sorte au-dessus de celui même qui lui commande. Il n’est pas de grands hommes sans vertu ; sans respect des droits il n’y a pas de grand peuple : on peut presque dire qu’il n’y a pas de société ; 
+**Alexis de Tocqueville, De la Démocratie en Amérique**
+
+Quant à cette autre espèce de conviction réfléchie et maîtresse d’elle-même qui naît de la science et s’élève du milieu même des agitations du doute, il ne sera jamais donné qu’aux efforts d’un très petit nombre d’hommes de l’atteindre. 
+**Alexis de Tocqueville, De la Démocratie en Amérique**
+
+Au rebours de toutes les puissances matérielles, le pouvoir de la pensée s’augmente souvent par le petit nombre même de ceux qui l’expriment. La parole d’un homme puissant, qui pénètre seule au milieu des passions d’une assemblée muette, a plus de pouvoir que les cris confus de mille orateurs ; et pour peu qu’on puisse parler librement dans un seul lieu public, c’est comme si on parlait publiquement dans chaque village. Il vous faut donc détruire la liberté de parler comme celle d’écrire ; cette fois, vous voici dans le port : chacun se tait. Mais où êtes-vous arrivé ? Vous étiez parti des abus de la liberté, et je vous retrouve sous les pieds d’un despote.
+Vous avez été de l’extrême indépendance à l’extrême servitude, sans rencontrer, sur un si long espace, un seul lieu où vous puissiez vous poser. 
+**Alexis de Tocqueville, De la Démocratie en Amérique**
+
+Les petits partis, au contraire, sont en général sans foi politique. Comme ils ne se sentent pas élevés et soutenus par de grands objets, leur caractère est empreint d’un égoïsme qui se produit ostensiblement à chacun de leurs actes. Ils s’échauffent toujours à froid ; leur langage est violent, mais leur marche est timide et incertaine. Les moyens qu’ils emploient sont misérables comme le but même qu’ils se proposent. De là vient que quand un temps de calme succède à une révolution violente, les grands hommes semblent disparaître tout-à-coup et les âmes se renfermer en elles-mêmes.
+Les grands partis bouleversent la société, les petits l’agitent ; les uns la déchirent et les autres la dépravent ; les premiers la sauvent quelquefois en l’ébranlant, les seconds la troublent toujours sans profit. 
+**Alexis de Tocqueville, De la Démocratie en Amérique**
+
+Quand, après avoir examiné en détail l'organisation de la Cour suprême, on arrive à considérer dans leur ensemble les attributions qui lui ont été données, on découvre sans peine que jamais un plus immense pouvoir judiciaire n'a été constitué chez aucun peuple.
+**Alexis de Tocqueville, De la Démocratie en Amérique**
+
+Ainsi il allait arriver, ce moment que mes souvenirs du futur m'avaient montré si souvent, ce moment qui s'était déjà produit et se produirait encore, et encore et encore... [...] Mais je m'accrochai à ma lyre et je continuai à jouer. Je suis Orphée, le fils d'Apollon, et les dieux m'avaient placé en ce lieu dans un but précis.
+**Robert Silverberg, Le Dernier Chant d'Oprhée**
+
+Along comes the Son of Man, and just as a good shepherd separetes the sheep from the goats, he separates the just from the unjust. Wojnicz felt sorry for the goats - they were such wise animals; they had had a small herd of nanny goats at their manor house in the countryside. The baby goats were especially amusing, bold and inquisitive. As a child he used to play with them, and even credited them with having their own sense of humor. What did the Savior have against billy goats ? 
+**Olga Tokarczuk, The Empusium**
+
+Someone like you will prompt antipathy and hatred, becase you will be a clear reminder that the vision of the world as black and white is a false and destructie fision You, Herr Woknicz - or howver I should address you -- represent a middle world, which is hard to bear because it's unclear. This vision maintains in us a peculiar irresolution, and does not let any dowma take shape. You treat us to a land "in between", which we'd rather not think about.
+**Olga Tokarczuk, The Empusium**
+
+"Woman, frog and devil, these are siblings treble".
+The little Wojnicz did his best to fathom the meaning of this adage, but he had no idea what exactly his uniformed uncle, who usually expressed himself precisely, was trying to say.
+**Olga Tokarczuk, The Empusium**
+
+Well some of it is - you know, the LDL or "bad" cholesterol, which is inevitably counterpoised against the HLD, or "good" cholesterol. I practically need to be restrained when I hear those terms, because they're so meaningless.
+[...]
+Cholesterol in the diet doesn't matter at all unless you happen to be a chicken or a rabbit.
+**Peter Attia, Outlive, the Science and Art of Longevity**
+
+Then, one of the veterans, a woman my age named Sarah, who was in her third week there (and who always had a way of saying the right thingm I would learn), must have seen the look on my face. Without even knowing my name, she turned to me and said, "Hey, it's okay - nobody shows up here on a winning streak".
+**Peter Attia, Outlive, the Science and Art of Longevity**
+
+When I think of suicide, I oftern think of a man named Ken Baldwin, who leaped off the Golden Gate Bridge in 1985, when he was twenty-eight. Unlike 99 percent of jumpers from that bridge, he survived. As he fell, he later told the author Tad Friend, "I instantly realized that everything in my life that I'd thought was unfixable, was totally fixable - except for having jus jumped".
+**Peter Attia, Outlive, the Science and Art of Longevity**
+
+Our first lines of defense are our knowledge and ability to reason about the generated code. Lacking these skills and therefore treating the generated code as a black box is irresponsible and ethically wrong.
+**Diomidis Spinellis, Pair Programming with Generative AI**
+
+
 A journalism that starts out assuming it knows the answers can be far less valuable to the reader than a journalism that starts out with a humbling awareness that it knows nothing.
 [...]
-Our role, we knew, was to help readers understand such threas, and this required empathetic - not sympathetic - reporting. This is not an easy distinction but good reporters make it: they learn to understand and communicate the sources and nature of a toxic ideology without justifying it, much less advocating it.
+Our role, we knew, was to help readers understand such threats, and this required empathetic - not sympathetic - reporting. This is not an easy distinction but good reporters make it: they learn to understand and communicate the sources and nature of a toxic ideology without justifying it, much less advocating it.
 [...]
 You did not have to pretend things were simpler than they actually were. You did not have to go along with anything that any tribe said. You did not have to pretend that good guys, much as you might have respected them, were right about everything, or that the bad guys, much as you have disdained them, never had a point. You did not, in other words, ever have to lie.
 This fundamental honesty was vital for readers, because it equipped them to make better, more informed judgments about the world. Sometimes it might shock or upset them by failing to conform to their picture of reality.  But it also granted them the respect of acknowledging that they were able to work things out for themselves.
@@ -29,7 +128,7 @@ He reached into the little cove and touched her arm. She moved slightly, her who
 **Cormack MacCarthy, Blood Meridian**
 
 
-Dans le salon vaguement éclairé par les lueurs du feu où Mrs Woolf avait bien voulu m'accueuillur, je regardais er profiler sur la pénombre ce pâle visage de jaune Parque à peine vieillie, mais délicatement marquée des signes de la pensée et de la lassitude, et je me disais que le reproche d'intellectualisme est souvent addressé aux natures les plus fines, les plus ardemment vivantes, obigées par leur fragilité ou par leur excès de forces à recourir sans cessse aux dures disciplines de l'esprit. Pour de telles êtres, l'intelligence n'est qu'une vitre parfaitement transparente derrière laquelle ils regardent attentivement passer la vie.
+Dans le salon vaguement éclairé par les lueurs du feu où Mrs Woolf avait bien voulu m'accueuillir, je regardais se profiler sur la pénombre ce pâle visage de jaune Parque à peine vieillie, mais délicatement marquée des signes de la pensée et de la lassitude, et je me disais que le reproche d'intellectualisme est souvent addressé aux natures les plus fines, les plus ardemment vivantes, obigées par leur fragilité ou par leur excès de forces à recourir sans cessse aux dures disciplines de l'esprit. Pour de telles êtres, l'intelligence n'est qu'une vitre parfaitement transparente derrière laquelle ils regardent attentivement passer la vie.
 **Marguerite Yourcenar, préface aux Vagues de Virginia Woolf**
 
 Le temps passe, je sais. Nous vieillissons. Mais être assis près de vous, seul avec vous, au cœur de Londres, dans cette chambre éclairée par le reflet du feu, c’est le comble du bonheur. Tous les trésors du monde ne forment qu’un seul butin, et tous ses sommets ont été pour nous dépouillés de leurs fleurs. Le reflet du feu met un fil d’or dans l’épaisseur des rideaux. Le fruit qu’il touche pèse de tout son poids. Il fait briller le bout de vos chaussures; il met autour de votre tête une rouge auréole. Je sais que ce reflet provient du feu, et non de votre visage: ces livres étagés le long du mur sont des livres, ce rideau est un rideau, et ce fauteuil n’est qu’un fauteuil. Mais quand vous êtes là, tout se transforme. Les tasses et les soucoupes ont changé d’aspect quand vous êtes entré ce matin. J’ai posé mon journal sur la table, et je me suis dit que certes nos médiocres vies sans beauté ne se recouvrent de splendeur, ne s’enrichissent d’un sens que sous l’éclairage de l’amour.
@@ -394,7 +493,7 @@ Je m'en fous, Dieu, pour moi, c'est comme le bridge: je n'y pense jamais. Donc j
 -	Général, ça ne change pas le fait que vous êtes en train de boire un café à cette table, reprend Wesley, ça change seuleument de quoi sont faits le café et la table.
 **Hervé le Tellier - L'Anomalie**
 
-Meredith crie une phrase où il est question de probabilistees endanglantés et d'un voyage vers l'enfer qu'il est prié d'accomplir mais il est déjà dans le hall.
+Meredith crie une phrase où il est question de probabilistes ensanglantés et d'un voyage vers l'enfer qu'il est prié d'accomplir mais il est déjà dans le hall.
 **Hervé le Tellier - L'Anomalie**
 
 Les escarmouches avec les théologiens avaient eu leur charme, mais il savait fort bien qu'il n'existe aucun accommodement durable entre ceux qui cherchent, pèsent, dissèquent, et s'honorent d'être capables de penser demain autrement qu'aujourd'hui, et ceux qui croient ou affirment croire, et obligent sous peine de mort leurs semblables à en faire autant.
@@ -565,7 +664,7 @@ I was a good question. We could only hope that at some point we'd be forced to a
 My regular slog through the chlorinated cross-chop of the water aerobics class is all that stands between me and a longboard-only existence.
 **Barbarian Days, John Finnegan**
 
-He had been diving and escaping the unimaginable just as narrowly as I did. His leash had not broken, however; he was reeling in his board. As he did so, he turned to me with a manic look in his eyes and yelled "This is great!". It could have been worst. He could have yelled "This is interesting !".
+He had been diving and escaping the unimaginable just as narrowly as I did. His leash had not broken, however; he was reeling on his board. As he did so, he turned to me with a manic look in his eyes and yelled "This is great!". It could have been worst. He could have yelled "This is interesting !".
 **Barbarian Days, John Finnegan**
 
 Better to follow the deeply unsexy advice you're probably sick of hearing, the "eat your vegetables and take the stairs" of  financial planning: instead of hunting for a magic system or an advisor whith a golden touch, put your money in a big dull low-fee index fund and forget about it.
@@ -581,7 +680,7 @@ Economics is a discipline for quiet times. The profession, it turns out, ... has
 The railroad come-ons painted Texas as a paradise of benign weather, when in fact hurricanes scoured its coast, plumes of hot wind baked apples in trees, and "blue northers" could drop the temperature fifty degrees in a matter of minutes.
 **Isaac's storm - Erik Larson**
 
-Keep firmly in mind that there was a time when you didn't understand any of this either. Recapitulate the first steps that led you from ignorance to knowledge. Never forget that native interlligence is widely distributed in our species.
+Keep firmly in mind that there was a time when you didn't understand any of this either. Recapitulate the first steps that led you from ignorance to knowledge. Never forget that native intelligence is widely distributed in our species.
 **Carl Sagan - The Demon Haunted World: Science as a Candle in the Dark**
 
 In theological discussion with religious leaders, I often ask what their response would be if a central tenet of their faith were disproved by science. When I put this question to the current, Fourteenth, Dalaï Lama, he unhesitatingly replied as no conservative or fundamentalist religious leaders do: in such a case, he said, Tibetan Buddhism would have to change. Even, I asked, if it's a really central tenet, like (I searched for an example) reincarnation? Even then, he answered. However, he added with a twinkle, it's going to be hard to disprove reincarnation. Plainly, the Dalaï Lama is right.
@@ -964,7 +1063,7 @@ Shared hatred makes for strange bedfellows.
 It is ordained in the eternal constitution of things, that men of intemperate minds cannot be free. They forge their fetters.
 **Burke - Open Letter (1791)**
 
-Worshiping a dictator is such a pain in the ass.
+Worshiping a dictator is such a pain in the ass... The ral problem is having no way of knowing from one day to another, from one minute to the next, just what is up and what is down.
 **Chinua Achebe - Anthills of the Savannah**
 
 Lastly, there are Idols which have immigrated into men's minds from the various dogmas of philosophies, and also from the wrong laws of demonstration. These I call Idols of the Theatre, because in my judgment all the received systems are but so many stage plays, representing worlds of their own creation after an unreal and scenic fashion.
