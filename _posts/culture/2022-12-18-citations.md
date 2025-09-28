@@ -13,6 +13,69 @@ header:
     image_fullwidth: "Banner_Archive.png"
 ---
 
+The unlimited pursuit of war as the material manifestation of personal power is in each case the result of not just individual will but also the willingness of followers to accept charismatic leadership and the costs that go with it together with the existence of historical circumstances that make the bid for leadership possible in the first place. This ¨toxic triangle¨, as it has been well described, is the context within which hubristic ambitions can flourish. This model of leadership reflects a profound selfishness.
+**Richard Overy, Why War**
+
+Going up that river was like traveling back to the earliest beginnings of the world, when vegetation rioted on the earth and the big trees were kings. An empty stream, a great silence, an impenetrable forest. The air was warm, thick, heavy, sluggish. There was no joy in the brilliance of sunshine. The long stretches of the waterway ran on, deserted, into the gloom of overshadowed distances. On silvery sand-banks hippos and alligators sunned themselves side by side. The broadening waters flowed through a mob of wooded islands; you lost your way on that river as you would in a desert, and butted all day long against shoals, trying to find the channel, till you thought yourself bewitched and cut off for ever from everything you had known once—somewhere—far away—in another existence perhaps. There were moments when one’s past came back to one, as it will sometimes when you have not a moment to spare for yourself; but it came in the shape of an unrestful and noisy dream, remembered with wonder amongst the overwhelming realities of this strange world of plants, and water, and silence. And this stillness of life did not in the least resemble a peace. It was the stillness of an implacable force brooding over an inscrutable intention. It looked at you with a vengeful aspect.
+**Joseph Conrad, Heart of Darkness**
+
+
+Au moment où Gavroche débarrassait de ses cartouches un sergent gisant près d’une borne, une balle frappa le cadavre.
+— Fichtre ! fit Gavroche. Voilà qu’on me tue mes morts.
+Une deuxième balle fit étinceler le pavé à côté de lui. Une troisième renversa son panier.
+Gavroche regarda, et vit que cela venait de la banlieue.
+Il se dressa tout droit, debout, les cheveux au vent, les mains sur les hanches, l’œil fixé sur les gardes nationaux qui tiraient, et il chanta :
+_On est laid à Nanterre,
+C’est la faute à Voltaire ;
+Et bête à Palaiseau,
+C’est la faute à Rousseau._
+Puis il ramassa son panier, y remit, sans en perdre une seule, les cartouches qui en étaient tombées, et, avançant vers la fusillade, alla dépouiller une autre giberne. Là une quatrième balle le manqua encore. Gavroche chanta :
+_Je ne suis pas notaire,
+C’est la faute à Voltaire ;
+Je suis petit oiseau,
+C’est la faute à Rousseau._
+Une cinquième balle ne réussit qu’à tirer de lui un troisième couplet :
+_Joie est mon caractère,
+C’est la faute à Voltaire ;
+Misère est mon trousseau,
+C’est la faute à Rousseau._
+Cela continua ainsi quelque temps.
+Le spectacle était épouvantable et charmant. Gavroche, fusillé, taquinait la fusillade. Il avait l’air de s’amuser beaucoup. C’était le moineau becquetant les chasseurs. Il répondait à chaque décharge par un couplet. On le visait sans cesse, on le manquait toujours. Les gardes nationaux et les soldats riaient en l’ajustant. Il se couchait, puis se redressait, s’effaçait dans un coin de porte, puis bondissait, disparaissait, reparaissait, se sauvait, revenait, ripostait à la mitraille par des pieds de nez, et cependant pillait les cartouches, vidait les gibernes et remplissait son panier. Les insurgés, haletants d’anxiété, le suivaient des yeux. La barricade tremblait ; lui, il chantait. Ce n’était pas un enfant, ce n’était pas un homme ; c’était un étrange gamin fée. On eût dit le nain invulnérable de la mêlée. Les balles couraient après lui, il était plus leste qu’elles. Il jouait on ne sait quel effrayant jeu de cache-cache avec la mort ; chaque fois que la face camarde du spectre s’approchait, le gamin lui donnait une pichenette.
+Une balle pourtant, mieux ajustée ou plus traître que les autres, finit par atteindre l’enfant feu follet. On vit Gavroche chanceler, puis il s’affaissa. Toute la barricade poussa un cri ; mais il y avait de l’Antée dans ce pygmée ; pour le gamin toucher le pavé, c’est comme pour le géant toucher la terre ; Gavroche n’était tombé que pour se redresser ; il resta assis sur son séant, un long filet de sang rayait son visage, il éleva ses deux bras en l’air, regarda du côté d’où était venu le coup, et se mit à chanter.
+_Je suis tombé par terre,
+C’est la faute à Voltaire,
+Le nez dans le ruisseau,
+C’est la faute à…_
+Il n’acheva point. Une seconde balle du même tireur l’arrêta court. Cette fois il s’abattit la face contre le pavé, et ne remua plus. Cette petite grande âme venait de s’envoler.
+**Victor Hugo, Les Misérables**
+
+
+— Mon frère est là. Il ne faut pas qu’il me voie. Il me gronderait.
+— Votre frère ! demanda Marius qui songeait dans le plus amer et le plus douloureux de son cœur aux devoirs que son père lui avait légués envers les Thénardier, qui est votre frère ?
+— Ce petit.
+— Celui qui chante ?
+— Oui.
+Marius fit un mouvement.
+— Oh ! ne vous en allez pas ! dit-elle, cela ne sera pas long à présent !
+Elle était presque sur son séant, mais sa voix était très basse et coupée de hoquets. Par intervalles le râle l’interrompait. Elle approchait le plus qu’elle pouvait son visage du visage de Marius. Elle ajouta avec une expression étrange :
+— Écoutez, je ne veux pas vous faire une farce. J’ai dans ma poche une lettre pour vous. Depuis hier. On m’avait dit de la mettre à la poste. Je l’ai gardée. Je ne voulais pas qu’elle vous parvînt. Mais vous m’en voudriez peut-être quand nous allons nous revoir tout à l’heure. On se revoit, n’est-ce pas ? Prenez votre lettre.
+Elle saisit convulsivement la main de Marius avec sa main trouée, mais elle semblait ne plus percevoir la souffrance. Elle mit la main de Marius dans la poche de sa blouse. Marius y sentit en effet un papier. 
+— Prenez, dit-elle.
+Marius prit la lettre.
+Elle fit un signe de satisfaction et de contentement.
+— Maintenant, pour ma peine, promettez-moi…
+Et elle s’arrêta.
+— Quoi ? demanda Marius.
+— Promettez-moi !
+— Je vous promets.
+— Promettez-moi de me donner un baiser sur le front quand je serai morte. — Je le sentirai.
+Elle laissa retomber sa tête sur les genoux de Marius et ses paupières se fermèrent. Il crut cette pauvre âme partie. Éponine restait immobile ; tout à coup, à l’instant où Marius la croyait à jamais endormie, elle ouvrit lentement ses yeux où apparaissait la sombre profondeur de la mort, et lui dit avec un accent dont la douceur semblait déjà venir d’un autre monde :
+— Et puis, tenez, monsieur Marius, je crois que j’étais un peu amoureuse de vous.
+Elle essaya encore de sourire et expira. 
+**Victor Hugo, Les Misérables**
+
+Les exaspérations de cette foule qui souffre et qui saigne, ses violences à contre-sens sur les principes qui sont sa vie, ses voies de fait contre le droit, sont des coups d’état populaire, et doivent être réprimés. L’homme probe s’y dévoue, et, par amour même pour cette foule, il la combat. Mais comme il la sent excusable tout en lui tenant tête ! comme il la vénère tout en lui résistant ! C’est là un de ces moments rares où, en faisant ce qu’on doit faire, on sent quelque chose qui déconcerte et qui déconseillerait presque d’aller plus loin ; on persiste, il le faut ; mais la conscience satisfaite est triste, et l’accomplissement du devoir se complique d’un serrement de cœur. 
+**Victor Hugo, Les Misérables**
 
 L’innocence n’a que faire d’être altesse. Elle est aussi auguste déguenillée que fleurdelysée. 
 **Victor Hugo, Les Misérables**
