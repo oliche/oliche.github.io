@@ -13,6 +13,39 @@ header:
     image_fullwidth: "Banner_Archive.png"
 ---
 
+He thought he was a man and that men were not meant to be pushed around. But it was hot downtown and he forgot his history, he forgot the time and the place. He lost his hold on reality. There was a cop and a waiting audience but he was Tod Clifton and cops are everywhere. The cop? What about him? He was a cop. A good citizen. But this cop had an itching finger and an eager ear for a word that rhymed with 'trigger,' and when Clifton fell he had found it. The Police Special spoke its line and the rhyme was completed.
+**Ralph Ellison, Invisible Man**
+
+And you have to take care of yourself, son. Don't let this Harlem git you. I'm in New York, but New York ain't in me, understand what I mean ? Don't git corrupted.
+**Ralph Ellison, Invisible Man**
+
+Therefore he had either to affirm the transcendent ideals of democracy and his own dignity by aiding those who despised him, or accept his situation as hopelessly devoid of meaning; a choice tantamount to rejecting his own humanity. The crowning irony of all this lay in the fact that neither of his adversaries was aware of his inner struggle. 
+**Ralph Ellison, Invisible Man**
+
+Le problème des machines n'est pas qu'elles se rebelleront contre l'homme, c'est qu'elles suivront les ordres à la lettre.
+**Giuliano da Empoli, Le Mage du Kremlin**
+
+Et surtout tu sais quoi Vadia ? On ne sait jamais rien. Tu ne contrôles pas les choses qui arrivent, pire, tu n'es même pas capable de savoir si elles sont bonnes ou mauvaises. Tu es là, tu attends une chose, tu la désires de toutes tes forces. Elle se produit enfin et, juste après, tu te rends compte que ta vie est gâchée. Ou le contraire. Le ciel te tombe sur la tête et après un peu de temps tu te rends compte que c'est la meilleure chose qui pouvait arriver.
+**Giuliano da Empoli, Le Mage du Kremlin**
+
+We of the craft are all crazy. Some are affected by gaiety, others by melancholy, but all are more or less touched.
+**Lord Byron, A Journal Of The Conversations Of Lord Byron With The Countess Of Blessington.**    
+
+If I loved you less, I might be able to talk about it more
+**Jane Austeen, Emma**
+
+Nunca imaginara que houvesse tanta felicidade em olhas para as estrelas.
+**Eça de Queiros, Os Maias**
+
+Tu es venu, toi, comme le mergule, avec le beau printemps. Mais quand l'été a fini et qu'à commencé l'envol, toi, tu es resté là. C'est pourquoi tu brûles de rentrer dans ton pays, maintenant, parmi ton peuple. Et il est bon pour toi de t'en aller maintenant. 
+Les entends-tu, tes chiens ? Tes chiens gémissent. N'attends jamais l'aurore quand tu brûles de partir.
+**Knud Rasmussen, De Nouveaux Hommes**
+
+Pourquoi donc des millions d'hommes se sont-ils entre-tués, quand chacun sait, depuis que le monde est monde, que c'est mal agir, moralement et physiquement ? 
+Parce que la chose était si inévitable qu'en la faisant il obésissaient à cette loi élémentaire, zoologique, à laquelle obéissent les abeilles qui s'entre-tuent à l'automne, et les mâles des animaux qui s'exterminent les uns les autres. On ne peut donner d'autre réponse à cette effroyable question. 
+C'est là une vérité, non seulement évidente, mais innée en chaque individu, et elle n'aurait même pas besoin d'être démontrée s'il n'y avait dans l'homme un autre sentiment de la conscience pour le convaincre qu'il est libre à tout moment où il agit.
+**Tolstoi, La Guerre et la Paix**
+
 The unlimited pursuit of war as the material manifestation of personal power is in each case the result of not just individual will but also the willingness of followers to accept charismatic leadership and the costs that go with it together with the existence of historical circumstances that make the bid for leadership possible in the first place. This ¨toxic triangle¨, as it has been well described, is the context within which hubristic ambitions can flourish. This model of leadership reflects a profound selfishness.
 **Richard Overy, Why War**
 
